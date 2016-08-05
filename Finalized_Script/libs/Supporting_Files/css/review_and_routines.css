@@ -1,0 +1,139 @@
+a:link{
+	color: #1C449C;
+}
+
+table{
+  text-align: left;
+  border-collapse: separate; 
+  border-spacing: 0px; 
+  vertical-align: top;
+}
+th, td { 
+	vertical-align: top;
+	padding: 7px;  
+} 
+
+table, table th, table td {
+	border: 1px solid black;
+}
+
+.close_reading_chart{
+	box-shadow: 3px 3px 4px #aaa;
+}
+.close_reading_chart thead tr th{
+	background-color: #F15922;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.close_reading_chart tbody tr:nth-child(1), 
+.close_reading_chart tbody tr:nth-child(3), 
+.close_reading_chart tbody tr:nth-child(5){
+	background-color: #FEECE0;
+} 
+.close_reading_chart tbody tr:nth-child(2), 
+.close_reading_chart tbody tr:nth-child(4), 
+.close_reading_chart tbody tr:nth-child(6){
+	background-color: #FDDAC5;
+} 
+.close_reading_chart tbody tr td:nth-child(1){ 
+	text-align: center;
+}
+
+.workstation_table thead tr th { background-color: #EE3B33; color: white; }
+.workstation_table th { text-align: center; font-size: 1.1em; }
+.workstation_table tbody td { width: 50%; }
+
+.Grdk-bg{background-color:#ef4138;color:#FFF;}
+
+.label{
+	background-color: #007CC3;
+	color: white;
+	display: block;
+	padding: 5px 5px 5px 25px;
+	font-size: 1.2em;
+	font-weight: bold;
+} 
+  
+.red_hd{
+	color: #EE3B33;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bolder;
+	font-size: 2.6em;
+}
+ 
+.yellow_panel{
+	background-color: #FFF9DF;
+	border-radius: 20px;  
+	padding: 5px 15px 15px 15px; 
+	box-shadow: 3px 3px 4px #aaa;
+	font-size: .9em;
+} 
+
+.yellow_panel_wide{
+	background-color: #FFF8D5;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+.yellow_panel_wide span{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-left: 1.7em;
+}
+
+.student_objectives div:first-child{
+	background-color: #EE3B33;
+	border-radius: 10px 10px 0 0;
+	padding: 10px 5px 5px 20px; 
+} 
+
+.student_objectives div:first-child h2{ 
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing:1px;
+	color: white;   
+	line-height: 0;
+	font-size: 1.4em;
+}
+
+.student_objectives div:last-child{
+	border: 2px solid #EE3B33;
+	background-color: white;
+	border-radius: 0 0 15px 15px;
+	padding: 0 5px 0px 10px;
+}
+
+.student_objectives div:last-child ul li{
+	margin:0;
+}
+ 
+.black{color: black;}
+.blue{color: #1C449C;}
+.teal{color: #00A1A6;} 
+.cobalt{color: #007CC3;}
+.pink{color: #EC008C;} 
+.lightblue{color: #00ACD4;}
+.green{color: #00A44D;}
+.purple{color: #9D3293;}
+.orange{color: #F15922;} 
+
+.image_box{
+	margin:0 auto;  
+	text-align: center;
+	font-size: 1.2em;
+} 
+
+.tiny{
+	font-size:1.1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+}
+.width-33{width: 33.33%;}
+.width-35{width: 35%;}
+.width-40{width: 40%;}
+.width-50{width: 50%;}
+.width-60{width: 60%;}
+.width-60{width: 65%;}
+
+.margin-0{margin: 0 auto;} 

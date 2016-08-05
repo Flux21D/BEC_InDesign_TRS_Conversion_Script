@@ -1,0 +1,11 @@
+Sl No,Label Name,Category,File Name
+1,Lesson,Core,DayFile
+2,Lesson_thread,Optional,DayFile
+3,student_objectives,Compulsory,DayFile
+4,ELD,Compulsory,DayFile
+5,standards,Compulsory,DayFile
+6,additional_materials,Optional,DayFile
+7,Small_group_diff_instr,Optional,DayFile
+8,observation_checklist,Optional,DayFile
+9,aag,Optional,DayFile
+10,Ways_to_scaffold,Optional,DayFile

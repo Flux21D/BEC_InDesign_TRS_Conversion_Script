@@ -1,0 +1,1101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'scissors' ]
+2 info using npm@1.4.8
+3 info using node@v0.10.27
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'scissors', null ]
+6 verbose cache add name=undefined spec="scissors" args=["scissors",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'scissors',
+7 verbose parsed url   path: 'scissors',
+7 verbose parsed url   href: 'scissors' }
+8 silly lockFile fb8e7c92-scissors scissors
+9 verbose lock scissors C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\fb8e7c92-scissors.lock
+10 silly lockFile fb8e7c92-scissors scissors
+11 silly lockFile fb8e7c92-scissors scissors
+12 verbose addNamed [ 'scissors', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f82e5bd3-scissors scissors@
+15 verbose lock scissors@ C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\f82e5bd3-scissors.lock
+16 silly addNameRange { name: 'scissors', range: '*', hasData: false }
+17 verbose url raw scissors
+18 verbose url resolving [ 'https://registry.npmjs.org/', './scissors' ]
+19 verbose url resolved https://registry.npmjs.org/scissors
+20 info trying registry request attempt 1 at 18:35:09
+21 http GET https://registry.npmjs.org/scissors
+22 http 200 https://registry.npmjs.org/scissors
+23 silly registry.get cb [ 200,
+23 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"4H4FJ1GBSK8V98MPNC963T9S7"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-encoding': 'gzip',
+23 silly registry.get     'cache-control': 'max-age=300',
+23 silly registry.get     'content-length': '1639',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:38 GMT',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     connection: 'keep-alive',
+23 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1461589297.989124,VS0,VE843',
+23 silly registry.get     vary: 'Accept-Encoding' } ]
+24 silly addNameRange number 2 { name: 'scissors', range: '*', hasData: true }
+25 silly addNameRange versions [ 'scissors', [ '0.1.0' ] ]
+26 verbose addNamed [ 'scissors', '0.1.0' ]
+27 verbose addNamed [ '0.1.0', '0.1.0' ]
+28 silly lockFile 6f126fa9-scissors-0-1-0 scissors@0.1.0
+29 verbose lock scissors@0.1.0 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\6f126fa9-scissors-0-1-0.lock
+30 silly lockFile a184145b--org-scissors-scissors-0-1-0-tgz https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz
+31 verbose lock https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\a184145b--org-scissors-scissors-0-1-0-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz',
+32 verbose addRemoteTarball   'e3a0a452420c459e47a2f9f71d6f711d772d7b8b' ]
+33 info retry fetch attempt 1 at 18:35:10
+34 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz
+35 http GET https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz
+36 http 200 https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz
+37 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz
+38 silly lockFile 1dc59d4c-npm-cache-scissors-0-1-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package
+39 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\1dc59d4c-npm-cache-scissors-0-1-0-package.lock
+40 silly lockFile 5b16192d-10194-0-5498094216454774-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz
+41 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\5b16192d-10194-0-5498094216454774-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry scissors.js
+46 silly gunzTarPerm extractEntry bin/crop.js
+47 silly gunzTarPerm extractEntry bin/rasterize.js
+48 silly gunzTarPerm extractEntry contrib/ps2ascii.ps
+49 silly gunzTarPerm extractEntry example/test.js
+50 silly gunzTarPerm extractEntry example/test.pdf
+51 silly lockFile 1dc59d4c-npm-cache-scissors-0-1-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package
+52 silly lockFile 1dc59d4c-npm-cache-scissors-0-1-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package
+53 silly lockFile 5b16192d-10194-0-5498094216454774-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz
+54 silly lockFile 5b16192d-10194-0-5498094216454774-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589510194-0.5498094216454774\tmp.tgz
+55 silly lockFile a184145b--org-scissors-scissors-0-1-0-tgz https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz
+56 silly lockFile a184145b--org-scissors-scissors-0-1-0-tgz https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz
+57 silly lockFile 6f126fa9-scissors-0-1-0 scissors@0.1.0
+58 silly lockFile 6f126fa9-scissors-0-1-0 scissors@0.1.0
+59 silly lockFile f82e5bd3-scissors scissors@
+60 silly lockFile f82e5bd3-scissors scissors@
+61 silly resolved [ { name: 'scissors',
+61 silly resolved     version: '0.1.0',
+61 silly resolved     description: 'PDF manipulation in Node.js! Split, join, crop, read, extract, boil, mash, stick them in a stew. ',
+61 silly resolved     main: 'scissors.js',
+61 silly resolved     dependencies:
+61 silly resolved      { temp: '~0.4.0',
+61 silly resolved        bufferjs: '~2.0.0',
+61 silly resolved        bufferstream: '~0.5.1',
+61 silly resolved        async: '~0.1.22' },
+61 silly resolved     devDependencies: {},
+61 silly resolved     repository: { type: 'git', url: 'https://github.com/tcr/scissors.git' },
+61 silly resolved     author: { name: 'Tim Cameron Ryan' },
+61 silly resolved     license: 'MIT',
+61 silly resolved     readmeFilename: 'README.md',
+61 silly resolved     keywords:
+61 silly resolved      [ 'pdf',
+61 silly resolved        'manipulation',
+61 silly resolved        'postscript',
+61 silly resolved        'document',
+61 silly resolved        'split',
+61 silly resolved        'join',
+61 silly resolved        'crop' ],
+61 silly resolved     readme: '# scissors\n\nPDF manipulation in Node.js! Split, join, crop, read, extract, boil, mash, stick them in a stew. \n\n## Example\n\n```javascript\nvar scissors = require(\'scissors\');\n\n// Use and chain any of these commands...\nvar pdf = scissors(\'in.pdf\')\n   .pages(4, 5, 6, 1, 12) // select or reorder individual pages\n   .range(1, 10) // pages 1-10\n   .even() // select even pages\n   .odd() // select odd pages\n   .rotate(90) // 90, 180, 270, 360\n   .compress()\n   .uncompress()\n   .crop(100, 100, 300, 200) // offset in points from left, bottom, right, top\n\n// Join multiple files...\nvar pdfA = scissors(\'1.pdf\'), pdfB = scissors(\'2.pdf\'), pdfC = scissors(\'3.pdf\')\nscissors.join(pdfA.page(1), pdfB, pdfC.pages(5, 10)).deflate().pdfStream()...\n\n// And output data as streams.\npdf.pdfStream().pipe(fs.createWriteStream(\'out.pdf\')); // PDF of compiled output\npdf.pngStream(300).pipe(fs.createWriteStream(\'out-page1.png\')); // PNG of first page at 300 dpi\npdf.textStream().pipe(process.stdout) // Individual text strings\n\n// Extract content as text or images:\npdf.contentStream().on(\'data\', console.log) \n// { type: \'string\', x: 1750, y: 594,\n//   string: \'Reinhold Messner\',\n//   font: { height: 112, width: 116, font: \'ZSVUGH+Imago-Book\' },\n//   color: { r: 137, g: 123, b: 126 } }\n// { type: \'image\', x: 3049, y: 5680, width: 655, height: 810, index: 4 }\n\n// Use the \'index\' property of an image element to extract an image:\npdf.extractImageStream(0)\n```\n\n## Requirements\n\n* Install [PDFTK (http://www.pdflabs.com/docs/install-pdftk/)](http://www.pdflabs.com/docs/install-pdftk/) on your system.\n* Ensure you have Ghostscript installed (check by running `gs --version`).\n* *(optional)* To extract individual images from a page, install `pdfimages` with `brew install xpdf` or `apt-get install poppler-utils`.',
+61 silly resolved     bugs: { url: 'https://github.com/tcr/scissors/issues' },
+61 silly resolved     homepage: 'https://github.com/tcr/scissors',
+61 silly resolved     _id: 'scissors@0.1.0',
+61 silly resolved     _shasum: 'e3a0a452420c459e47a2f9f71d6f711d772d7b8b',
+61 silly resolved     _from: 'scissors@',
+61 silly resolved     _resolved: 'https://registry.npmjs.org/scissors/-/scissors-0.1.0.tgz' } ]
+62 info install scissors@0.1.0 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP
+63 info installOne scissors@0.1.0
+64 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors unbuild
+65 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package.tgz
+66 silly lockFile 349713b6-out-TRS-PP-node-modules-scissors tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+67 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\349713b6-out-TRS-PP-node-modules-scissors.lock
+68 silly lockFile d3cceae5-cache-scissors-0-1-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package.tgz
+69 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\d3cceae5-cache-scissors-0-1-0-package-tgz.lock
+70 silly gunzTarPerm modes [ '755', '644' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm extractEntry scissors.js
+74 silly gunzTarPerm extractEntry bin/crop.js
+75 silly gunzTarPerm extractEntry bin/rasterize.js
+76 silly gunzTarPerm extractEntry contrib/ps2ascii.ps
+77 silly gunzTarPerm extractEntry example/test.js
+78 silly gunzTarPerm extractEntry example/test.pdf
+79 silly lockFile 349713b6-out-TRS-PP-node-modules-scissors tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+80 silly lockFile 349713b6-out-TRS-PP-node-modules-scissors tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+81 silly lockFile d3cceae5-cache-scissors-0-1-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package.tgz
+82 silly lockFile d3cceae5-cache-scissors-0-1-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\scissors\0.1.0\package.tgz
+83 info preinstall scissors@0.1.0
+84 verbose readDependencies using package.json deps
+85 verbose readDependencies using package.json deps
+86 verbose cache add [ 'temp@~0.4.0', null ]
+87 verbose cache add name=undefined spec="temp@~0.4.0" args=["temp@~0.4.0",null]
+88 verbose parsed url { protocol: null,
+88 verbose parsed url   slashes: null,
+88 verbose parsed url   auth: null,
+88 verbose parsed url   host: null,
+88 verbose parsed url   port: null,
+88 verbose parsed url   hostname: null,
+88 verbose parsed url   hash: null,
+88 verbose parsed url   search: null,
+88 verbose parsed url   query: null,
+88 verbose parsed url   pathname: 'temp@~0.4.0',
+88 verbose parsed url   path: 'temp@~0.4.0',
+88 verbose parsed url   href: 'temp@~0.4.0' }
+89 verbose cache add name="temp" spec="~0.4.0" args=["temp","~0.4.0"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '~0.4.0',
+90 verbose parsed url   path: '~0.4.0',
+90 verbose parsed url   href: '~0.4.0' }
+91 verbose addNamed [ 'temp', '~0.4.0' ]
+92 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+93 silly lockFile 28b28780-temp-0-4-0 temp@~0.4.0
+94 verbose lock temp@~0.4.0 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\28b28780-temp-0-4-0.lock
+95 verbose cache add [ 'bufferjs@~2.0.0', null ]
+96 verbose cache add name=undefined spec="bufferjs@~2.0.0" args=["bufferjs@~2.0.0",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'bufferjs@~2.0.0',
+97 verbose parsed url   path: 'bufferjs@~2.0.0',
+97 verbose parsed url   href: 'bufferjs@~2.0.0' }
+98 verbose cache add name="bufferjs" spec="~2.0.0" args=["bufferjs","~2.0.0"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '~2.0.0',
+99 verbose parsed url   path: '~2.0.0',
+99 verbose parsed url   href: '~2.0.0' }
+100 verbose addNamed [ 'bufferjs', '~2.0.0' ]
+101 verbose addNamed [ null, '>=2.0.0-0 <2.1.0-0' ]
+102 silly lockFile bbc66120-bufferjs-2-0-0 bufferjs@~2.0.0
+103 verbose lock bufferjs@~2.0.0 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bbc66120-bufferjs-2-0-0.lock
+104 verbose cache add [ 'bufferstream@~0.5.1', null ]
+105 verbose cache add name=undefined spec="bufferstream@~0.5.1" args=["bufferstream@~0.5.1",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'bufferstream@~0.5.1',
+106 verbose parsed url   path: 'bufferstream@~0.5.1',
+106 verbose parsed url   href: 'bufferstream@~0.5.1' }
+107 verbose cache add name="bufferstream" spec="~0.5.1" args=["bufferstream","~0.5.1"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '~0.5.1',
+108 verbose parsed url   path: '~0.5.1',
+108 verbose parsed url   href: '~0.5.1' }
+109 verbose addNamed [ 'bufferstream', '~0.5.1' ]
+110 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+111 silly lockFile a1048c2e-bufferstream-0-5-1 bufferstream@~0.5.1
+112 verbose lock bufferstream@~0.5.1 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\a1048c2e-bufferstream-0-5-1.lock
+113 verbose cache add [ 'async@~0.1.22', null ]
+114 verbose cache add name=undefined spec="async@~0.1.22" args=["async@~0.1.22",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'async@~0.1.22',
+115 verbose parsed url   path: 'async@~0.1.22',
+115 verbose parsed url   href: 'async@~0.1.22' }
+116 verbose cache add name="async" spec="~0.1.22" args=["async","~0.1.22"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '~0.1.22',
+117 verbose parsed url   path: '~0.1.22',
+117 verbose parsed url   href: '~0.1.22' }
+118 verbose addNamed [ 'async', '~0.1.22' ]
+119 verbose addNamed [ null, '>=0.1.22-0 <0.2.0-0' ]
+120 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+121 verbose lock async@~0.1.22 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\3af71045-async-0-1-22.lock
+122 silly addNameRange { name: 'bufferjs', range: '>=2.0.0-0 <2.1.0-0', hasData: false }
+123 silly addNameRange { name: 'bufferstream',
+123 silly addNameRange   range: '>=0.5.1-0 <0.6.0-0',
+123 silly addNameRange   hasData: false }
+124 silly addNameRange { name: 'temp', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+125 verbose url raw bufferjs
+126 verbose url resolving [ 'https://registry.npmjs.org/', './bufferjs' ]
+127 verbose url resolved https://registry.npmjs.org/bufferjs
+128 info trying registry request attempt 1 at 18:35:11
+129 http GET https://registry.npmjs.org/bufferjs
+130 verbose url raw bufferstream
+131 verbose url resolving [ 'https://registry.npmjs.org/', './bufferstream' ]
+132 verbose url resolved https://registry.npmjs.org/bufferstream
+133 info trying registry request attempt 1 at 18:35:11
+134 http GET https://registry.npmjs.org/bufferstream
+135 verbose url raw temp
+136 verbose url resolving [ 'https://registry.npmjs.org/', './temp' ]
+137 verbose url resolved https://registry.npmjs.org/temp
+138 info trying registry request attempt 1 at 18:35:11
+139 http GET https://registry.npmjs.org/temp
+140 silly addNameRange { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: false }
+141 verbose url raw async
+142 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+143 verbose url resolved https://registry.npmjs.org/async
+144 info trying registry request attempt 1 at 18:35:11
+145 http GET https://registry.npmjs.org/async
+146 http 200 https://registry.npmjs.org/bufferjs
+147 silly registry.get cb [ 200,
+147 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly registry.get     etag: '"2W3GJSAN9S8MSVSA6OZLFQLV5"',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'content-encoding': 'gzip',
+147 silly registry.get     'cache-control': 'max-age=300',
+147 silly registry.get     'content-length': '1521',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:40 GMT',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '268',
+147 silly registry.get     connection: 'keep-alive',
+147 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+147 silly registry.get     'x-cache': 'HIT',
+147 silly registry.get     'x-cache-hits': '2',
+147 silly registry.get     'x-timer': 'S1461589300.450331,VS0,VE0',
+147 silly registry.get     vary: 'Accept-Encoding' } ]
+148 http 200 https://registry.npmjs.org/bufferstream
+149 silly registry.get cb [ 200,
+149 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+149 silly registry.get     etag: '"6QV2CVO5RUI07S5RL45JWZAVR"',
+149 silly registry.get     'content-type': 'application/json',
+149 silly registry.get     'content-encoding': 'gzip',
+149 silly registry.get     'cache-control': 'max-age=300',
+149 silly registry.get     'content-length': '8360',
+149 silly registry.get     'accept-ranges': 'bytes',
+149 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:40 GMT',
+149 silly registry.get     via: '1.1 varnish',
+149 silly registry.get     age: '268',
+149 silly registry.get     connection: 'keep-alive',
+149 silly registry.get     'x-served-by': 'cache-sin6926-SIN',
+149 silly registry.get     'x-cache': 'HIT',
+149 silly registry.get     'x-cache-hits': '1',
+149 silly registry.get     'x-timer': 'S1461589300.455697,VS0,VE0',
+149 silly registry.get     vary: 'Accept-Encoding' } ]
+150 http 200 https://registry.npmjs.org/temp
+151 silly registry.get cb [ 200,
+151 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+151 silly registry.get     etag: '"DPSW75Q2AJYYRZEQIHVAC1UQ2"',
+151 silly registry.get     'content-type': 'application/json',
+151 silly registry.get     'cache-control': 'max-age=300',
+151 silly registry.get     'content-length': '19346',
+151 silly registry.get     'accept-ranges': 'bytes',
+151 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:40 GMT',
+151 silly registry.get     via: '1.1 varnish',
+151 silly registry.get     age: '45',
+151 silly registry.get     connection: 'keep-alive',
+151 silly registry.get     'x-served-by': 'cache-sin6925-SIN',
+151 silly registry.get     'x-cache': 'HIT',
+151 silly registry.get     'x-cache-hits': '2',
+151 silly registry.get     'x-timer': 'S1461589300.456987,VS0,VE0',
+151 silly registry.get     vary: 'Accept-Encoding' } ]
+152 silly addNameRange number 2 { name: 'bufferjs', range: '>=2.0.0-0 <2.1.0-0', hasData: true }
+153 silly addNameRange versions [ 'bufferjs',
+153 silly addNameRange   [ '0.2.0',
+153 silly addNameRange     '0.2.1',
+153 silly addNameRange     '0.2.3',
+153 silly addNameRange     '1.0.0',
+153 silly addNameRange     '1.0.1',
+153 silly addNameRange     '1.0.2',
+153 silly addNameRange     '1.1.0',
+153 silly addNameRange     '1.2.0',
+153 silly addNameRange     '1.2.1',
+153 silly addNameRange     '2.0.0' ] ]
+154 verbose addNamed [ 'bufferjs', '2.0.0' ]
+155 verbose addNamed [ '2.0.0', '2.0.0' ]
+156 silly lockFile 46c8e9a8-bufferjs-2-0-0 bufferjs@2.0.0
+157 verbose lock bufferjs@2.0.0 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\46c8e9a8-bufferjs-2-0-0.lock
+158 silly lockFile 200a4a3e--org-bufferjs-bufferjs-2-0-0-tgz https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz
+159 verbose lock https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\200a4a3e--org-bufferjs-bufferjs-2-0-0-tgz.lock
+160 verbose addRemoteTarball [ 'https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz',
+160 verbose addRemoteTarball   '685e71ed5c0600e3d703ff9bd012bb3270a39e28' ]
+161 info retry fetch attempt 1 at 18:35:11
+162 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz
+163 http GET https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz
+164 http 200 https://registry.npmjs.org/async
+165 silly registry.get cb [ 200,
+165 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+165 silly registry.get     etag: '"BCUPCK71JZGSCV15HNW3W76QS"',
+165 silly registry.get     'content-type': 'application/json',
+165 silly registry.get     'content-encoding': 'gzip',
+165 silly registry.get     'cache-control': 'max-age=300',
+165 silly registry.get     'content-length': '35481',
+165 silly registry.get     'accept-ranges': 'bytes',
+165 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:40 GMT',
+165 silly registry.get     via: '1.1 varnish',
+165 silly registry.get     age: '220',
+165 silly registry.get     connection: 'keep-alive',
+165 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+165 silly registry.get     'x-cache': 'HIT',
+165 silly registry.get     'x-cache-hits': '35',
+165 silly registry.get     'x-timer': 'S1461589300.463422,VS0,VE0',
+165 silly registry.get     vary: 'Accept-Encoding' } ]
+166 silly addNameRange number 2 { name: 'temp', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+167 silly addNameRange versions [ 'temp',
+167 silly addNameRange   [ '0.2.0',
+167 silly addNameRange     '0.3.0',
+167 silly addNameRange     '0.4.0',
+167 silly addNameRange     '0.5.0',
+167 silly addNameRange     '0.5.1',
+167 silly addNameRange     '0.6.0',
+167 silly addNameRange     '0.7.0',
+167 silly addNameRange     '0.8.0',
+167 silly addNameRange     '0.8.1',
+167 silly addNameRange     '0.8.2',
+167 silly addNameRange     '0.8.3' ] ]
+168 verbose addNamed [ 'temp', '0.4.0' ]
+169 verbose addNamed [ '0.4.0', '0.4.0' ]
+170 silly lockFile cf2a828e-temp-0-4-0 temp@0.4.0
+171 verbose lock temp@0.4.0 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\cf2a828e-temp-0-4-0.lock
+172 silly addNameRange number 2 { name: 'bufferstream',
+172 silly addNameRange   range: '>=0.5.1-0 <0.6.0-0',
+172 silly addNameRange   hasData: true }
+173 silly addNameRange versions [ 'bufferstream',
+173 silly addNameRange   [ '0.0.2',
+173 silly addNameRange     '0.0.3',
+173 silly addNameRange     '0.1.0',
+173 silly addNameRange     '0.1.1',
+173 silly addNameRange     '0.1.2',
+173 silly addNameRange     '0.1.2-1',
+173 silly addNameRange     '0.1.2-2',
+173 silly addNameRange     '0.1.2-3',
+173 silly addNameRange     '0.1.2-4',
+173 silly addNameRange     '0.1.2-5',
+173 silly addNameRange     '0.1.2-6',
+173 silly addNameRange     '0.1.3',
+173 silly addNameRange     '0.1.4',
+173 silly addNameRange     '0.1.5',
+173 silly addNameRange     '0.1.6',
+173 silly addNameRange     '0.2.0',
+173 silly addNameRange     '0.3.0',
+173 silly addNameRange     '0.4.0',
+173 silly addNameRange     '0.4.1',
+173 silly addNameRange     '0.4.2',
+173 silly addNameRange     '0.4.3',
+173 silly addNameRange     '0.4.4',
+173 silly addNameRange     '0.4.5',
+173 silly addNameRange     '0.4.6',
+173 silly addNameRange     '0.4.7',
+173 silly addNameRange     '0.4.8',
+173 silly addNameRange     '0.4.9',
+173 silly addNameRange     '0.4.10',
+173 silly addNameRange     '0.5.0-pre',
+173 silly addNameRange     '0.5.0-pre2',
+173 silly addNameRange     '0.5.0',
+173 silly addNameRange     '0.5.1',
+173 silly addNameRange     '0.5.2',
+173 silly addNameRange     '0.6.0',
+173 silly addNameRange     '0.6.1',
+173 silly addNameRange     '0.6.2' ] ]
+174 verbose addNamed [ 'bufferstream', '0.5.2' ]
+175 verbose addNamed [ '0.5.2', '0.5.2' ]
+176 silly lockFile 2264f6a5-bufferstream-0-5-2 bufferstream@0.5.2
+177 verbose lock bufferstream@0.5.2 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\2264f6a5-bufferstream-0-5-2.lock
+178 silly lockFile ac59a67f-ry-npmjs-org-temp-temp-0-4-0-tgz https://registry.npmjs.org/temp/-/temp-0.4.0.tgz
+179 verbose lock https://registry.npmjs.org/temp/-/temp-0.4.0.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\ac59a67f-ry-npmjs-org-temp-temp-0-4-0-tgz.lock
+180 silly lockFile 4d7bd059-ferstream-bufferstream-0-5-2-tgz https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz
+181 verbose lock https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\4d7bd059-ferstream-bufferstream-0-5-2-tgz.lock
+182 verbose addRemoteTarball [ 'https://registry.npmjs.org/temp/-/temp-0.4.0.tgz',
+182 verbose addRemoteTarball   '671ad63d57be0fe9d7294664b3fc400636678a60' ]
+183 verbose addRemoteTarball [ 'https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz',
+183 verbose addRemoteTarball   '599c9224e6690c42a5cd5dea96511bf09d0094fc' ]
+184 info retry fetch attempt 1 at 18:35:11
+185 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz
+186 info retry fetch attempt 1 at 18:35:11
+187 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz
+188 http GET https://registry.npmjs.org/temp/-/temp-0.4.0.tgz
+189 http GET https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz
+190 silly addNameRange number 2 { name: 'async', range: '>=0.1.22-0 <0.2.0-0', hasData: true }
+191 silly addNameRange versions [ 'async',
+191 silly addNameRange   [ '0.1.0',
+191 silly addNameRange     '0.1.1',
+191 silly addNameRange     '0.1.2',
+191 silly addNameRange     '0.1.3',
+191 silly addNameRange     '0.1.4',
+191 silly addNameRange     '0.1.5',
+191 silly addNameRange     '0.1.6',
+191 silly addNameRange     '0.1.7',
+191 silly addNameRange     '0.1.8',
+191 silly addNameRange     '0.1.9',
+191 silly addNameRange     '0.1.10',
+191 silly addNameRange     '0.1.11',
+191 silly addNameRange     '0.1.12',
+191 silly addNameRange     '0.1.13',
+191 silly addNameRange     '0.1.14',
+191 silly addNameRange     '0.1.15',
+191 silly addNameRange     '0.1.16',
+191 silly addNameRange     '0.1.17',
+191 silly addNameRange     '0.1.18',
+191 silly addNameRange     '0.1.19',
+191 silly addNameRange     '0.1.20',
+191 silly addNameRange     '0.1.21',
+191 silly addNameRange     '0.1.22',
+191 silly addNameRange     '0.2.0',
+191 silly addNameRange     '0.2.1',
+191 silly addNameRange     '0.2.2',
+191 silly addNameRange     '0.2.3',
+191 silly addNameRange     '0.2.4',
+191 silly addNameRange     '0.2.5',
+191 silly addNameRange     '0.2.6',
+191 silly addNameRange     '0.2.7',
+191 silly addNameRange     '0.2.8',
+191 silly addNameRange     '0.2.9',
+191 silly addNameRange     '0.2.10',
+191 silly addNameRange     '0.3.0',
+191 silly addNameRange     '0.4.0',
+191 silly addNameRange     '0.4.1',
+191 silly addNameRange     '0.5.0',
+191 silly addNameRange     '0.6.0',
+191 silly addNameRange     '0.6.1',
+191 silly addNameRange     '0.6.2',
+191 silly addNameRange     '0.7.0',
+191 silly addNameRange     '0.8.0',
+191 silly addNameRange     '0.9.0',
+191 silly addNameRange     '0.9.2',
+191 silly addNameRange     '1.0.0',
+191 silly addNameRange     '1.1.0',
+191 silly addNameRange     '1.2.0',
+191 silly addNameRange     '1.1.1',
+191 silly addNameRange     '1.2.1',
+191 silly addNameRange     '1.3.0',
+191 silly addNameRange     '1.4.0',
+191 silly addNameRange     '1.4.1',
+191 silly addNameRange     '1.4.2',
+191 silly addNameRange     '1.5.0',
+191 silly addNameRange     '1.5.1',
+191 silly addNameRange     '1.5.2',
+191 silly addNameRange     '2.0.0-alpha.0',
+191 silly addNameRange     '2.0.0-rc.1',
+191 silly addNameRange     '2.0.0-rc.2',
+191 silly addNameRange     '2.0.0-rc.3' ] ]
+192 verbose addNamed [ 'async', '0.1.22' ]
+193 verbose addNamed [ '0.1.22', '0.1.22' ]
+194 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+195 verbose lock async@0.1.22 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\09d21715-async-0-1-22.lock
+196 silly lockFile d8129da7-npmjs-org-async-async-0-1-22-tgz https://registry.npmjs.org/async/-/async-0.1.22.tgz
+197 verbose lock https://registry.npmjs.org/async/-/async-0.1.22.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\d8129da7-npmjs-org-async-async-0-1-22-tgz.lock
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.1.22.tgz',
+198 verbose addRemoteTarball   '0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061' ]
+199 info retry fetch attempt 1 at 18:35:11
+200 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz
+201 http GET https://registry.npmjs.org/async/-/async-0.1.22.tgz
+202 http 200 https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz
+203 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz
+204 silly lockFile 216ba34b-npm-cache-bufferjs-2-0-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package
+205 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\216ba34b-npm-cache-bufferjs-2-0-0-package.lock
+206 silly lockFile c0b31387-511834-0-907556923571974-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz
+207 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\c0b31387-511834-0-907556923571974-tmp-tgz.lock
+208 silly gunzTarPerm modes [ '755', '644' ]
+209 silly gunzTarPerm extractEntry package.json
+210 silly gunzTarPerm extractEntry add-chunk.js
+211 silly gunzTarPerm extractEntry index.js
+212 silly gunzTarPerm extractEntry indexOf.js
+213 silly lockFile 216ba34b-npm-cache-bufferjs-2-0-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package
+214 silly lockFile 216ba34b-npm-cache-bufferjs-2-0-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package
+215 silly lockFile c0b31387-511834-0-907556923571974-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz
+216 silly lockFile c0b31387-511834-0-907556923571974-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511834-0.907556923571974\tmp.tgz
+217 http 200 https://registry.npmjs.org/temp/-/temp-0.4.0.tgz
+218 silly lockFile 200a4a3e--org-bufferjs-bufferjs-2-0-0-tgz https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz
+219 silly lockFile 200a4a3e--org-bufferjs-bufferjs-2-0-0-tgz https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz
+220 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz
+221 silly lockFile 0400d19b-ing-npm-cache-temp-0-4-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package
+222 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\0400d19b-ing-npm-cache-temp-0-4-0-package.lock
+223 silly lockFile a524b5a8-511865-0-963984924601391-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz
+224 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\a524b5a8-511865-0-963984924601391-tmp-tgz.lock
+225 silly lockFile 46c8e9a8-bufferjs-2-0-0 bufferjs@2.0.0
+226 silly lockFile 46c8e9a8-bufferjs-2-0-0 bufferjs@2.0.0
+227 silly lockFile bbc66120-bufferjs-2-0-0 bufferjs@~2.0.0
+228 silly lockFile bbc66120-bufferjs-2-0-0 bufferjs@~2.0.0
+229 silly gunzTarPerm modes [ '755', '644' ]
+230 silly gunzTarPerm extractEntry .gitignore
+231 silly gunzTarPerm extractEntry LICENSE
+232 silly gunzTarPerm extractEntry package.json
+233 silly gunzTarPerm extractEntry README.md
+234 silly gunzTarPerm extractEntry examples/grepcount.js
+235 silly gunzTarPerm extractEntry examples/pdfcreator.js
+236 silly gunzTarPerm extractEntry lib/temp.js
+237 silly gunzTarPerm extractEntry test/temp-test.js
+238 silly lockFile 0400d19b-ing-npm-cache-temp-0-4-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package
+239 silly lockFile 0400d19b-ing-npm-cache-temp-0-4-0-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package
+240 silly lockFile a524b5a8-511865-0-963984924601391-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz
+241 silly lockFile a524b5a8-511865-0-963984924601391-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.963984924601391\tmp.tgz
+242 silly lockFile ac59a67f-ry-npmjs-org-temp-temp-0-4-0-tgz https://registry.npmjs.org/temp/-/temp-0.4.0.tgz
+243 silly lockFile ac59a67f-ry-npmjs-org-temp-temp-0-4-0-tgz https://registry.npmjs.org/temp/-/temp-0.4.0.tgz
+244 silly lockFile cf2a828e-temp-0-4-0 temp@0.4.0
+245 silly lockFile cf2a828e-temp-0-4-0 temp@0.4.0
+246 silly lockFile 28b28780-temp-0-4-0 temp@~0.4.0
+247 silly lockFile 28b28780-temp-0-4-0 temp@~0.4.0
+248 http 200 https://registry.npmjs.org/async/-/async-0.1.22.tgz
+249 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz
+250 silly lockFile f1648f23-g-npm-cache-async-0-1-22-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package
+251 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\f1648f23-g-npm-cache-async-0-1-22-package.lock
+252 silly lockFile e2311e1c-11927-0-3333540696185082-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz
+253 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\e2311e1c-11927-0-3333540696185082-tmp-tgz.lock
+254 silly gunzTarPerm modes [ '755', '644' ]
+255 silly gunzTarPerm extractEntry package.json
+256 silly gunzTarPerm extractEntry .npmignore
+257 silly gunzTarPerm extractEntry README.md
+258 silly gunzTarPerm extractEntry LICENSE
+259 silly gunzTarPerm extractEntry index.js
+260 silly gunzTarPerm extractEntry Makefile
+261 silly gunzTarPerm extractEntry lib/async.js
+262 silly gunzTarPerm extractEntry .gitmodules
+263 silly lockFile f1648f23-g-npm-cache-async-0-1-22-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package
+264 silly lockFile f1648f23-g-npm-cache-async-0-1-22-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package
+265 silly lockFile e2311e1c-11927-0-3333540696185082-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz
+266 silly lockFile e2311e1c-11927-0-3333540696185082-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511927-0.3333540696185082\tmp.tgz
+267 silly lockFile d8129da7-npmjs-org-async-async-0-1-22-tgz https://registry.npmjs.org/async/-/async-0.1.22.tgz
+268 silly lockFile d8129da7-npmjs-org-async-async-0-1-22-tgz https://registry.npmjs.org/async/-/async-0.1.22.tgz
+269 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+270 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+271 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+272 silly lockFile 3af71045-async-0-1-22 async@~0.1.22
+273 http 200 https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz
+274 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz
+275 silly lockFile 6dc27df2-cache-bufferstream-0-5-2-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package
+276 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\6dc27df2-cache-bufferstream-0-5-2-package.lock
+277 silly lockFile 7863a9e7-511865-0-130245246225968-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz
+278 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\7863a9e7-511865-0-130245246225968-tmp-tgz.lock
+279 silly gunzTarPerm modes [ '755', '644' ]
+280 silly gunzTarPerm extractEntry package.json
+281 silly gunzTarPerm extractEntry .npmignore
+282 silly gunzTarPerm extractEntry README.md
+283 silly gunzTarPerm extractEntry LICENSE
+284 silly gunzTarPerm extractEntry events.js
+285 silly gunzTarPerm extractEntry postbuffer.js
+286 silly gunzTarPerm extractEntry bufferstream.js
+287 silly gunzTarPerm extractEntry todo
+288 silly gunzTarPerm extractEntry ..travis.yml.un~
+289 silly gunzTarPerm extractEntry lib/fn.js
+290 silly gunzTarPerm extractEntry lib/buffer-stream.js
+291 silly gunzTarPerm extractEntry lib/post-buffer.js
+292 silly gunzTarPerm extractEntry .travis.yml
+293 silly gunzTarPerm extractEntry test/stream.js
+294 silly gunzTarPerm extractEntry test/buffer.js
+295 silly lockFile 6dc27df2-cache-bufferstream-0-5-2-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package
+296 silly lockFile 6dc27df2-cache-bufferstream-0-5-2-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package
+297 silly lockFile 7863a9e7-511865-0-130245246225968-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz
+298 silly lockFile 7863a9e7-511865-0-130245246225968-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589511865-0.130245246225968\tmp.tgz
+299 silly lockFile 4d7bd059-ferstream-bufferstream-0-5-2-tgz https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz
+300 silly lockFile 4d7bd059-ferstream-bufferstream-0-5-2-tgz https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz
+301 silly lockFile 2264f6a5-bufferstream-0-5-2 bufferstream@0.5.2
+302 silly lockFile 2264f6a5-bufferstream-0-5-2 bufferstream@0.5.2
+303 silly lockFile a1048c2e-bufferstream-0-5-1 bufferstream@~0.5.1
+304 silly lockFile a1048c2e-bufferstream-0-5-1 bufferstream@~0.5.1
+305 silly resolved [ { name: 'bufferjs',
+305 silly resolved     description: 'Pure JavaScript Buffer utils.',
+305 silly resolved     url: 'http://github.com/coolaj86/node-bufferjs/',
+305 silly resolved     keywords: [ 'util', 'buffer', 'chunk', 'indexOf' ],
+305 silly resolved     author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+305 silly resolved     contributors: [ [Object], [Object] ],
+305 silly resolved     dependencies: {},
+305 silly resolved     version: '2.0.0',
+305 silly resolved     main: './index',
+305 silly resolved     engines: { node: '>=0.2.0' },
+305 silly resolved     readme: 'ERROR: No README data found!',
+305 silly resolved     _id: 'bufferjs@2.0.0',
+305 silly resolved     _shasum: '685e71ed5c0600e3d703ff9bd012bb3270a39e28',
+305 silly resolved     _from: 'bufferjs@~2.0.0',
+305 silly resolved     _resolved: 'https://registry.npmjs.org/bufferjs/-/bufferjs-2.0.0.tgz' },
+305 silly resolved   { name: 'temp',
+305 silly resolved     description: 'Temporary files and directories',
+305 silly resolved     tags:
+305 silly resolved      [ 'temporary',
+305 silly resolved        'temp',
+305 silly resolved        'tempfile',
+305 silly resolved        'tempdir',
+305 silly resolved        'tmpfile',
+305 silly resolved        'tmpdir',
+305 silly resolved        'security' ],
+305 silly resolved     version: '0.4.0',
+305 silly resolved     author: { name: 'Bruce Williams', email: 'bruce@codefluency.com' },
+305 silly resolved     directories: { lib: 'lib' },
+305 silly resolved     engines: [ 'node >=0.4.0' ],
+305 silly resolved     main: './lib/temp',
+305 silly resolved     dependencies: {},
+305 silly resolved     devDependencies: {},
+305 silly resolved     repository: { type: 'git', url: 'git://github.com/bruce/node-temp.git' },
+305 silly resolved     readme: 'node-temp -- temporary files and directories for node.js\n========================================================\n\nHandles generating a unique file/directory name under the appropriate\nsystem temporary directory, changing the file to an appropriate mode,\nand supports automatic removal.\n\n`temp` has a similar API to the `fs` module.\n\nSynopsis\n--------\n\nYou can create temporary files with `open` and `openSync`, temporary\ndirectories with `mkdir` and `mkdirSync`, or you can get a unique name\nin the system temporary directory with `path`.\n\nWorking copies of the following examples can be found under the\n`examples` directory.\n\n### Temporary Files\n\nTo create a temporary file use `open` or `openSync`, passing\nthem an optional prefix, suffix, or both (see below for details on\naffixes). The object passed to the callback (or returned) has\n`path` and `fd` keys:\n\n    { path: "/path/to/file",\n    , fd: theFileDescriptor\n    }\n\nIn this example we write to a temporary file and call out to `grep` and\n`wc -l` to determine the number of time `foo` occurs in the text.  The\ntemporary file is chmod\'d `0600` and cleaned up automatically when the\nprocess at exit:\n\n    var temp = require(\'temp\'),\n        fs   = require(\'fs\'),\n        util  = require(\'util\'),\n        exec = require(\'child_process\').exec;\n\n    // Fake data\n    var myData = "foo\\nbar\\nfoo\\nbaz";\n\n    // Process the data (note: error handling omitted)\n    temp.open(\'myprefix\', function(err, info) {\n      fs.write(info.fd, myData);\n      fs.close(info.fd, function(err) {\n        exec("grep foo \'" + info.path + "\' | wc -l", function(err, stdout) {\n          util.puts(stdout.trim());\n        });\n      });\n    });\n\n### Temporary Directories\n\nTo create a temporary directory, use `mkdir` or `mkdirSync`, passing\nit an optional prefix, suffix, or both (see below for details on affixes).\n\nIn this example we create a temporary directory, write to a file\nwithin it, call out to an external program to create a PDF, and read\nthe result.  While the external process creates a lot of additional\nfiles, the temporary directory is removed automatically at exit:\n\n    var temp = require(\'../lib/temp\'),\n        fs   = require(\'fs\'),\n        util = require(\'util\'),\n        path = require(\'path\'),\n        exec = require(\'child_process\').exec;\n\n    // For use with ConTeXt, http://wiki.contextgarden.net\n    var myData = "\\\\starttext\\nHello World\\n\\\\stoptext";\n\n    temp.mkdir(\'pdfcreator\', function(err, dirPath) {\n      var inputPath = path.join(dirPath, \'input.tex\')\n      fs.writeFile(inputPath, myData, function(err) {\n        if (err) throw err;\n        process.chdir(dirPath);\n        exec("texexec \'" + inputPath + "\'", function(err) {\n          if (err) throw err;\n          fs.readFile(path.join(dirPath, \'input.pdf\'), function(err, data) {\n            if (err) throw err;\n            sys.print(data);\n          });\n        });\n      });\n    });\n\n### Affixes\n\nYou can provide custom prefixes and suffixes when creating temporary\nfiles and directories. If you provide a string, it is used as the prefix\nfor the temporary name. If you provide an object with `prefix` and\n`suffix` keys, they are used for the temporary name.\n\nHere are some examples:\n\n* `"aprefix"`: A simple prefix, prepended to the filename; this is\n  shorthand for:\n* `{prefix: "aprefix"}`: A simple prefix, prepended to the filename\n* `{suffix: ".asuffix"}`: A suffix, appended to the filename\n  (especially useful when the file needs to be named with specific\n  extension for use with an external program).\n* `{prefix: "myprefix", suffix: "mysuffix"}`: Customize both affixes\n* `null`: Use the defaults for files and directories (prefixes `"f-"`\n  and `"d-"`, respectively, no suffixes).\n\nIn this simple example we read a `pdf`, write it to a temporary file with\na `.pdf` extension, and close it.\n\n    var fs   = require(\'fs\'),\n        temp = require(\'temp\');\n\n    fs.readFile(\'/path/to/source.pdf\', function(err, data) {\n      temp.open({suffix: \'.pdf\'}, function(err, info) {\n        if (err) throw err;\n        fs.write(info.fd, contents);\n        fs.close(info.fd, function(err) {\n          if (err) throw err;\n          // Do something with the file\n        });\n      });\n    });\n\n### Just a path, please\n\nIf you just want a unique name in your temporary directory, use\n`path`:\n\n    var fs = require(\'fs\');\n    var tempName = temp.path({suffix: \'.pdf\'});\n    // Do something with tempName\n    \nNote: The file isn\'t created for you, and the  mode is not changed  -- and it\nwill not be removed automatically at exit.  If you use `path`, it\'s\nall up to you.\n\nCompatibility\n-------------\n\nWorks with Node.js v0.6.0 on OS X.  Please let me know if you have\nproblems running it on a later version of Node.js or\nhave platform problems.\n\nInstallation\n------------\n\nInstall it using [npm](http://github.com/isaacs/npm):\n\n    $ npm install temp\n\nOr get it directly from:\nhttp://github.com/bruce/node-temp\n\nTesting\n-------\n\nFor now, run `test/test-temp.js`:\n\n    $ node test/test-temp.js\n\nContributing\n------------\n\nYou can find the repository at:\nhttp://github.com/bruce/node-temp\n\nIssues/Feature Requests can be submitted at:\nhttp://github.com/bruce/node-temp/issues\n\nI\'d really like to hear your feedback, and I\'d love to receive your\npull-requests!\n\nCopyright\n---------\n\nCopyright (c) 2010 Bruce Williams. See LICENSE for details.\n',
+305 silly resolved     readmeFilename: 'README.md',
+305 silly resolved     bugs: { url: 'https://github.com/bruce/node-temp/issues' },
+305 silly resolved     homepage: 'https://github.com/bruce/node-temp',
+305 silly resolved     _id: 'temp@0.4.0',
+305 silly resolved     _shasum: '671ad63d57be0fe9d7294664b3fc400636678a60',
+305 silly resolved     _from: 'temp@~0.4.0',
+305 silly resolved     _resolved: 'https://registry.npmjs.org/temp/-/temp-0.4.0.tgz' },
+305 silly resolved   { name: 'async',
+305 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+305 silly resolved     main: './index',
+305 silly resolved     author: { name: 'Caolan McMahon' },
+305 silly resolved     version: '0.1.22',
+305 silly resolved     repository: { type: 'git', url: 'http://github.com/caolan/async.git' },
+305 silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+305 silly resolved     licenses: [ [Object] ],
+305 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+305 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser.\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, forEach…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n    async.parallel([\n        function(){ ... },\n        function(){ ... }\n    ], callback);\n\n    async.series([\n        function(){ ... },\n        function(){ ... }\n    ]);\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n\n## Download\n\nReleases are available for download from\n[GitHub](http://github.com/caolan/async/downloads).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 17.5kb Uncompressed\n\n__Production:__ [async.min.js](https://github.com/caolan/async/raw/master/dist/async.min.js) - 1.7kb Packed and Gzipped\n\n\n## In the Browser\n\nSo far its been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n    <script type="text/javascript" src="async.js"></script>\n    <script type="text/javascript">\n\n        async.map(data, asyncProcess, function(err, results){\n            alert(results);\n        });\n\n    </script>\n\n\n## Documentation\n\n### Collections\n\n* [forEach](#forEach)\n* [map](#map)\n* [filter](#filter)\n* [reject](#reject)\n* [reduce](#reduce)\n* [detect](#detect)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [whilst](#whilst)\n* [until](#until)\n* [waterfall](#waterfall)\n* [queue](#queue)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n### forEach(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the forEach function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // assuming openFiles is an array of file names and saveFile is a function\n    // to save the modified contents of that file:\n\n    async.forEach(openFiles, saveFile, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n\n---------------------------------------\n\n<a name="forEachSeries" />\n### forEachSeries(arr, iterator, callback)\n\nThe same as forEach only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n### forEachLimit(arr, limit, iterator, callback)\n\nThe same as forEach only the iterator is applied to batches of items in the\narray, in series. The next batch of iterators is only called once the current\none has completed processing.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - How many items should be in each batch.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // Assume documents is an array of JSON objects and requestApi is a\n    // function that interacts with a rate-limited REST api.\n\n    async.forEachLimit(documents, 20, requestApi, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as filter, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then its probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback which accepts an optional error as its first argument, and the state\n  of the reduction as the second. If an error is passed to the callback, the\n  reduction is stopped and the main callback is immediately called with the\n  error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n    async.reduce([1,2,3], 0, function(memo, item, callback){\n        // pointless async:\n        process.nextTick(function(){\n            callback(null, memo + item)\n        });\n    }, function(err, result){\n        // result is now equal to the last value of memo, which is 6\n    });\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n    async.detect([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // result now equals the first file in the list that exists\n    });\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a value to use as the sort criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n    async.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n        fs.stat(file, function(err, stats){\n            callback(err, stats.mtime);\n        });\n    }, function(err, results){\n        // results is now the original array of files sorted by\n        // modified date\n    });\n\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n    async.some([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then at least one of the files exists\n    });\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n    async.every([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then every file exists\n    });\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n    async.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n        // files is now a list of filenames that exist in the 3 directories\n    });\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.series([\n        function(callback){\n            // do some stuff ...\n            callback(null, \'one\');\n        },\n        function(callback){\n            // do some more stuff ...\n            callback(null, \'two\');\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // results is now equal to [\'one\', \'two\']\n    });\n\n\n    // an example using an object instead of an array\n    async.series({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equal to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed a\n  callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.parallel([\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'one\');\n            }, 200);\n        },\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'two\');\n            }, 100);\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // the results array will equal [\'one\',\'two\'] even though\n        // the second function had a shorter timeout.\n    });\n\n\n    // an example using an object instead of an array\n    async.parallel({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equals to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback which must be called once it has completed with an optional\n  error as the first argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n    var count = 0;\n\n    async.whilst(\n        function () { return count < 5; },\n        function (callback) {\n            count++;\n            setTimeout(callback, 1000);\n        },\n        function (err) {\n            // 5 seconds have passed\n        }\n    );\n\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n    async.waterfall([\n        function(callback){\n            callback(null, \'one\', \'two\');\n        },\n        function(arg1, arg2, callback){\n            callback(null, \'three\');\n        },\n        function(arg1, callback){\n            // arg1 now equals \'three\'\n            callback(null, \'done\');\n        }\n    ], function (err, result) {\n       // result now equals \'done\'    \n    });\n\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n    // create a queue object with concurrency 2\n\n    var q = async.queue(function (task, callback) {\n        console.log(\'hello \' + task.name);\n        callback();\n    }, 2);\n\n\n    // assign a callback\n    q.drain = function() {\n        console.log(\'all items have been processed\');\n    }\n\n    // add some items to the queue\n\n    q.push({name: \'foo\'}, function (err) {\n        console.log(\'finished processing foo\');\n    });\n    q.push({name: \'bar\'}, function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n    // add some items to the queue (batch-wise)\n\n    q.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The\n  syntax is easier to understand by looking at the example.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. If all tasks complete\n  successfully, it will receive an object containing their results.\n\n__Example__\n\n    async.auto({\n        get_data: function(callback){\n            // async code to get some data\n        },\n        make_folder: function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        },\n        write_file: [\'get_data\', \'make_folder\', function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n            callback(null, filename);\n        }],\n        email_link: [\'write_file\', function(callback, results){\n            // once the file is written let\'s email a link to it...\n            // results.write_file contains the filename returned by write_file.\n        }]\n    });\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n    async.parallel([\n        function(callback){\n            // async code to get some data\n        },\n        function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        }\n    ],\n    function(results){\n        async.series([\n            function(callback){\n                // once there is some data and the directory exists,\n                // write the data to a file in the directory\n            },\n            email_link: function(callback){\n                // once the file is written let\'s email a link to it...\n            }\n        ]);\n    });\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. Its also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n\n__Example__\n\n    var iterator = async.iterator([\n        function(){ sys.p(\'one\'); },\n        function(){ sys.p(\'two\'); },\n        function(){ sys.p(\'three\'); }\n    ]);\n\n    node> var iterator2 = iterator();\n    \'one\'\n    node> var iterator3 = iterator2();\n    \'two\'\n    node> iterator3();\n    \'three\'\n    node> var nextfn = iterator2.next();\n    node> nextfn();\n    \'three\'\n\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n    // using apply\n\n    async.parallel([\n        async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n        async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n    ]);\n\n\n    // the same process without using apply\n\n    async.parallel([\n        function(callback){\n            fs.writeFile(\'testfile1\', \'test1\', callback);\n        },\n        function(callback){\n            fs.writeFile(\'testfile2\', \'test2\', callback);\n        },\n    ]);\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n    node> var fn = async.apply(sys.puts, \'one\');\n    node> fn(\'two\', \'three\');\n    one\n    two\n    three\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setTimeout(callback, 0),\nwhich means other higher priority events may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n    var call_order = [];\n    async.nextTick(function(){\n        call_order.push(\'two\');\n        // call_order now equals [\'one\',\'two]\n    });\n    call_order.push(\'one\')\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n    var slow_fn = function (name, callback) {\n        // do something\n        callback(null, result);\n    };\n    var fn = async.memoize(slow_fn);\n\n    // fn can now be used as if it were slow_fn\n    fn(\'some name\', function () {\n        // callback\n    });\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, \'hello \' + name);\n        }, 1000);\n    };\n\n    node> async.log(hello, \'world\');\n    \'hello world\'\n\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, {hello: name});\n        }, 1000);\n    };\n\n    node> async.dir(hello, \'world\');\n    {hello: \'world\'}\n\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+305 silly resolved     readmeFilename: 'README.md',
+305 silly resolved     homepage: 'https://github.com/caolan/async',
+305 silly resolved     _id: 'async@0.1.22',
+305 silly resolved     _shasum: '0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061',
+305 silly resolved     _from: 'async@~0.1.22',
+305 silly resolved     _resolved: 'https://registry.npmjs.org/async/-/async-0.1.22.tgz' },
+305 silly resolved   { name: 'bufferstream',
+305 silly resolved     description: 'painless stream buffering and cutting',
+305 silly resolved     version: '0.5.2',
+305 silly resolved     homepage: 'https://github.com/dodo/node-bufferstream',
+305 silly resolved     author: { name: 'dodo', url: 'https://github.com/dodo' },
+305 silly resolved     repository:
+305 silly resolved      { type: 'git',
+305 silly resolved        url: 'git://github.com/dodo/node-bufferstream.git' },
+305 silly resolved     main: 'bufferstream.js',
+305 silly resolved     engines: { node: '>= 0.4.x' },
+305 silly resolved     keywords: [ 'buffer', 'buffers', 'stream', 'streams' ],
+305 silly resolved     scripts:
+305 silly resolved      { test: 'cake build && nodeunit test',
+305 silly resolved        prepublish: 'cake build' },
+305 silly resolved     dependencies: { buffertools: '>= 1.0.3' },
+305 silly resolved     devDependencies:
+305 silly resolved      { nodeunit: '>= 0.5.4',
+305 silly resolved        muffin: '>= 0.2.6',
+305 silly resolved        'coffee-script': '>= 1.1.2',
+305 silly resolved        cli: '>= 0.3.7',
+305 silly resolved        express: '>= 2.4.5' },
+305 silly resolved     licenses: [ [Object] ],
+305 silly resolved     readme: '# BufferStream\n\npainless stream buffering, cutting and piping.\n\n## install\n\n    npm install bufferstream\n\n## api\n\nBufferStream is a full node.js [Stream](http://nodejs.org/docs/v0.4.7/api/streams.html) so it has apis of both [Writeable Stream](http://nodejs.org/docs/v0.4.7/api/streams.html#writable_Stream) and [Readable Stream](http://nodejs.org/docs/v0.4.7/api/streams.html#readable_Stream).\n\n### BufferStream\n\n```javascript\nBufferStream = require(\'bufferstream\')\nstream = new BufferStream([{encoding:\'utf8\', size:\'none\'}]) // default\n```\n * `encoding` default encoding for writing strings\n * `blocking` if true and the source is a child_process the stream will block the entire process (timeouts wont work anymore, but splitting and listening on data still works, because they work sync)\n * `size` defines buffer level or sets buffer to given size (see ↓`setSize` for more)\n * `disabled` immediately call disable\n * `split` short form for:\n\n```javascript\nstream.split(token, function (chunk) {stream.emit(\'data\', chunk)})\n```\n\n### stream.setSize\n\n```javascript\nstream.setSize(size) // can be one of [\'none\', \'flexible\', <number>]\n```\n\ndifferent buffer behaviors can be triggered by size:\n\n * `none` when output drains, bufferstream drains too\n * `flexible` buffers everthing that it gets and not piping out\n * `<number>` `TODO` buffer has given size. buffers everthing until buffer is full. when buffer is full then  the stream will drain\n\n### stream.enable\n\n```javascript\nstream.enable()\n```\n\nenables stream buffering __default__\n\n### stream.disable\n\n```javascript\nstream.disable()\n```\n\nflushes buffer and disables stream buffering.\nBufferStream now pipes all data as long as the output accepting data.\nwhen the output is draining BufferStream will buffer all input temporary.\n\n```javascript\nstream.disable(token, ...)\nstream.disable(tokens) // Array\n```\n * `token[s]` buffer splitters (should be String or Buffer)\n\ndisables given tokens. wont flush until no splitter tokens are left.\n\n### stream.split\n\n```javascript\nstream.split(token, ...)\nstream.split(tokens) // Array\n```\n * `token[s]` buffer splitters (should be String or Buffer)\n\neach time BufferStream finds a splitter token in the input data it will emit a __split__ event.\nthis also works for binary data.\n\n### Event: \'split\'\n\n```javascript\nstream.on(\'split\', function (chunk, token) {…})\nstream.split(token, function (chunk, token) {…}) // only get called for this particular token\n```\n\nwhenever the stream is enabled it will try to find all splitter token in `stream.buffer`,\ncut it off and emit the chunk (without token) as __split__ event.\nthis data will be lost when not handled.\n\nthe chunk is the cut off of `stream.buffer` without the token.\n\n__Warning:__ try to avoid calling `stream.emit(\'data\', newchunk)` more than one time, because this will likely throw `Error: Offset is out of bounds`.\n\n### stream.getBuffer\n\n```javascript\nstream.getBuffer()\n// or just\nstream.buffer\n```\n\nreturns its [Buffer](http://nodejs.org/docs/v0.4.7/api/buffers.html).\n\n### stream.toString\n\n```javascript\nstream.toString()\n```\n\nshortcut for `stream.buffer.toString()`\n\n### stream.length\n\n```javascript\nstream.length\n```\n\nshortcut for `stream.buffer.length`\n\n### PostBuffer\n\n```javascript\nPostBuffer = require(\'bufferstream/postbuffer\')\npost = new PostBuffer(req)\n```\n * `req` http.ServerRequest\n\nfor if you want to get all the post data from a http server request and do some db reqeust before.\n\nbuffer http client\n\n### post.onEnd\n\n```javascript\npost.onEnd(function (data) {…});\n```\n\nset a callback to get all post data from a http server request\n\n### post.pipe\n\n```javascript\npost.pipe(stream, options);\n```\n\npumps data into another stream to allow incoming streams\ngiven options will be passed to Stream.pipe\n\n## example\n\n```javascript\nBufferStream = require(\'bufferstream\')\nstream = new BufferStream({encoding:\'utf8\', size:\'flexible\'})\nstream.split(\'//\', \':\')\nstream.on(\'split\', function (chunk, token) {\n    console.log("got \'%s\' by \'%s\'", chunk.toString(), token.toString())\n})\nstream.write("buffer:stream//23")\nconsole.log(stream.toString())\n```\n\nresults in\n\n    got \'buffer\' by \':\'\n    got \'stream\' by \'//\'\n    23\n\n* https://github.com/dodo/node-bufferstream/blob/master/example/split.js\n\n## FAQ\n\n> I\'m not sure from your readme what the split event emits?\n\nyou can specify more than one split token .. so it\'s emitted whenever\na token is found.\n\n> does it emit the buffer up to the just before the token starts?\n\nyes.\n\n> also, does it join buffers together if they do not already end in a token?\n\nwhen size is `flexible` it joins everything together what it gets to\none buffer (accessible through `stream.buffer` or\n`stream.getBuffer()`)\nwhenever it gets data, it will try to find all tokens\n\n> in other words, can I use this to rechunk a stream so that the chunks always break on newlines, for example?\n\nyes.\n\n```javascript\nstream = new BufferStream({size:\'flexible\'});\nstream.split(\'\\n\', function (line) { // line doesn\'t have a \'\\n\' anymore\n    stream.emit(\'data\', line); // Buffer.isBuffer(line) === true\n});\n```\n\n[![Build Status](https://secure.travis-ci.org/dodo/node-bufferstream.png)](http://travis-ci.org/dodo/node-bufferstream)\n',
+305 silly resolved     readmeFilename: 'README.md',
+305 silly resolved     bugs: { url: 'https://github.com/dodo/node-bufferstream/issues' },
+305 silly resolved     _id: 'bufferstream@0.5.2',
+305 silly resolved     _shasum: '599c9224e6690c42a5cd5dea96511bf09d0094fc',
+305 silly resolved     _from: 'bufferstream@~0.5.1',
+305 silly resolved     _resolved: 'https://registry.npmjs.org/bufferstream/-/bufferstream-0.5.2.tgz' } ]
+306 info install bufferjs@2.0.0 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+307 info install temp@0.4.0 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+308 info install async@0.1.22 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+309 info install bufferstream@0.5.2 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+310 info installOne bufferjs@2.0.0
+311 info installOne temp@0.4.0
+312 info installOne async@0.1.22
+313 info installOne bufferstream@0.5.2
+314 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs unbuild
+315 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp unbuild
+316 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async unbuild
+317 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream unbuild
+318 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package.tgz
+319 silly lockFile 988645e0-s-scissors-node-modules-bufferjs tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs
+320 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\988645e0-s-scissors-node-modules-bufferjs.lock
+321 silly lockFile 55b72fc9-cache-bufferjs-2-0-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package.tgz
+322 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\55b72fc9-cache-bufferjs-2-0-0-package-tgz.lock
+323 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package.tgz
+324 silly lockFile 20567548-dules-scissors-node-modules-temp tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp
+325 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\20567548-dules-scissors-node-modules-temp.lock
+326 silly lockFile ea6084a8-npm-cache-temp-0-4-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package.tgz
+327 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\ea6084a8-npm-cache-temp-0-4-0-package-tgz.lock
+328 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+329 silly lockFile 96526144-ules-scissors-node-modules-async tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async
+330 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\96526144-ules-scissors-node-modules-async.lock
+331 silly lockFile e470e24c-m-cache-async-0-1-22-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+332 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\e470e24c-m-cache-async-0-1-22-package-tgz.lock
+333 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package.tgz
+334 silly lockFile 4a187a4c-issors-node-modules-bufferstream tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream
+335 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\4a187a4c-issors-node-modules-bufferstream.lock
+336 silly lockFile 5612e847-e-bufferstream-0-5-2-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package.tgz
+337 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\5612e847-e-bufferstream-0-5-2-package-tgz.lock
+338 silly gunzTarPerm modes [ '755', '644' ]
+339 silly gunzTarPerm modes [ '755', '644' ]
+340 silly gunzTarPerm extractEntry package.json
+341 silly gunzTarPerm extractEntry .gitignore
+342 silly gunzTarPerm extractEntry add-chunk.js
+343 silly gunzTarPerm extractEntry index.js
+344 silly gunzTarPerm extractEntry LICENSE
+345 silly gunzTarPerm extractEntry package.json
+346 silly gunzTarPerm extractEntry README.md
+347 silly gunzTarPerm extractEntry examples/grepcount.js
+348 silly gunzTarPerm extractEntry indexOf.js
+349 silly gunzTarPerm modes [ '755', '644' ]
+350 silly gunzTarPerm modes [ '755', '644' ]
+351 silly gunzTarPerm extractEntry examples/pdfcreator.js
+352 silly gunzTarPerm extractEntry lib/temp.js
+353 silly gunzTarPerm extractEntry package.json
+354 silly gunzTarPerm extractEntry package.json
+355 silly gunzTarPerm extractEntry .npmignore
+356 silly gunzTarPerm extractEntry README.md
+357 silly gunzTarPerm extractEntry .npmignore
+358 silly gunzTarPerm extractEntry README.md
+359 silly gunzTarPerm extractEntry test/temp-test.js
+360 silly gunzTarPerm extractEntry LICENSE
+361 silly gunzTarPerm extractEntry events.js
+362 silly gunzTarPerm extractEntry LICENSE
+363 silly gunzTarPerm extractEntry index.js
+364 silly gunzTarPerm extractEntry Makefile
+365 silly gunzTarPerm extractEntry postbuffer.js
+366 silly gunzTarPerm extractEntry bufferstream.js
+367 silly lockFile 988645e0-s-scissors-node-modules-bufferjs tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs
+368 silly lockFile 988645e0-s-scissors-node-modules-bufferjs tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs
+369 silly lockFile 55b72fc9-cache-bufferjs-2-0-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package.tgz
+370 silly lockFile 55b72fc9-cache-bufferjs-2-0-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferjs\2.0.0\package.tgz
+371 info preinstall bufferjs@2.0.0
+372 verbose readDependencies using package.json deps
+373 silly gunzTarPerm extractEntry todo
+374 silly gunzTarPerm extractEntry ..travis.yml.un~
+375 silly gunzTarPerm extractEntry lib/fn.js
+376 silly gunzTarPerm extractEntry lib/buffer-stream.js
+377 silly gunzTarPerm extractEntry lib/post-buffer.js
+378 silly gunzTarPerm extractEntry .travis.yml
+379 silly gunzTarPerm extractEntry test/stream.js
+380 silly gunzTarPerm extractEntry test/buffer.js
+381 verbose readDependencies using package.json deps
+382 silly resolved []
+383 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs
+384 info build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferjs
+385 verbose linkStuff [ false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   false,
+385 verbose linkStuff   'D:\\Dinesh\\BEC\\SVN_Checkout_TRS_PP\\node_modules\\scissors\\node_modules' ]
+386 info linkStuff bufferjs@2.0.0
+387 verbose linkBins bufferjs@2.0.0
+388 verbose linkMans bufferjs@2.0.0
+389 verbose rebuildBundles bufferjs@2.0.0
+390 info install bufferjs@2.0.0
+391 info postinstall bufferjs@2.0.0
+392 silly gunzTarPerm extractEntry lib/async.js
+393 silly gunzTarPerm extractEntry .gitmodules
+394 silly lockFile 20567548-dules-scissors-node-modules-temp tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp
+395 silly lockFile 20567548-dules-scissors-node-modules-temp tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp
+396 silly lockFile ea6084a8-npm-cache-temp-0-4-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package.tgz
+397 silly lockFile ea6084a8-npm-cache-temp-0-4-0-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\temp\0.4.0\package.tgz
+398 info preinstall temp@0.4.0
+399 verbose readDependencies using package.json deps
+400 verbose readDependencies using package.json deps
+401 silly resolved []
+402 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp
+403 info build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\temp
+404 verbose linkStuff [ false,
+404 verbose linkStuff   false,
+404 verbose linkStuff   false,
+404 verbose linkStuff   'D:\\Dinesh\\BEC\\SVN_Checkout_TRS_PP\\node_modules\\scissors\\node_modules' ]
+405 info linkStuff temp@0.4.0
+406 verbose linkBins temp@0.4.0
+407 verbose linkMans temp@0.4.0
+408 verbose rebuildBundles temp@0.4.0
+409 info install temp@0.4.0
+410 info postinstall temp@0.4.0
+411 silly lockFile 96526144-ules-scissors-node-modules-async tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async
+412 silly lockFile 96526144-ules-scissors-node-modules-async tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async
+413 silly lockFile e470e24c-m-cache-async-0-1-22-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+414 silly lockFile e470e24c-m-cache-async-0-1-22-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\async\0.1.22\package.tgz
+415 silly lockFile 4a187a4c-issors-node-modules-bufferstream tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream
+416 silly lockFile 4a187a4c-issors-node-modules-bufferstream tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream
+417 silly lockFile 5612e847-e-bufferstream-0-5-2-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package.tgz
+418 silly lockFile 5612e847-e-bufferstream-0-5-2-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\bufferstream\0.5.2\package.tgz
+419 info preinstall async@0.1.22
+420 verbose readDependencies using package.json deps
+421 verbose readDependencies using package.json deps
+422 silly resolved []
+423 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async
+424 info build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\async
+425 verbose linkStuff [ false,
+425 verbose linkStuff   false,
+425 verbose linkStuff   false,
+425 verbose linkStuff   'D:\\Dinesh\\BEC\\SVN_Checkout_TRS_PP\\node_modules\\scissors\\node_modules' ]
+426 info linkStuff async@0.1.22
+427 verbose linkBins async@0.1.22
+428 verbose linkMans async@0.1.22
+429 verbose rebuildBundles async@0.1.22
+430 info install async@0.1.22
+431 info preinstall bufferstream@0.5.2
+432 info postinstall async@0.1.22
+433 verbose readDependencies using package.json deps
+434 verbose readDependencies using package.json deps
+435 verbose cache add [ 'buffertools@>= 1.0.3', null ]
+436 verbose cache add name=undefined spec="buffertools@>= 1.0.3" args=["buffertools@>= 1.0.3",null]
+437 verbose parsed url { protocol: null,
+437 verbose parsed url   slashes: null,
+437 verbose parsed url   auth: null,
+437 verbose parsed url   host: null,
+437 verbose parsed url   port: null,
+437 verbose parsed url   hostname: null,
+437 verbose parsed url   hash: null,
+437 verbose parsed url   search: null,
+437 verbose parsed url   query: null,
+437 verbose parsed url   pathname: 'buffertools@%3E=%201.0.3',
+437 verbose parsed url   path: 'buffertools@%3E=%201.0.3',
+437 verbose parsed url   href: 'buffertools@%3E=%201.0.3' }
+438 verbose cache add name="buffertools" spec=">= 1.0.3" args=["buffertools",">= 1.0.3"]
+439 verbose parsed url { protocol: null,
+439 verbose parsed url   slashes: null,
+439 verbose parsed url   auth: null,
+439 verbose parsed url   host: null,
+439 verbose parsed url   port: null,
+439 verbose parsed url   hostname: null,
+439 verbose parsed url   hash: null,
+439 verbose parsed url   search: null,
+439 verbose parsed url   query: null,
+439 verbose parsed url   pathname: '%3E=%201.0.3',
+439 verbose parsed url   path: '%3E=%201.0.3',
+439 verbose parsed url   href: '%3E=%201.0.3' }
+440 verbose addNamed [ 'buffertools', '>= 1.0.3' ]
+441 verbose addNamed [ null, '>=1.0.3' ]
+442 silly lockFile 7f466163-buffertools-1-0-3 buffertools@>= 1.0.3
+443 verbose lock buffertools@>= 1.0.3 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\7f466163-buffertools-1-0-3.lock
+444 silly addNameRange { name: 'buffertools', range: '>=1.0.3', hasData: false }
+445 verbose url raw buffertools
+446 verbose url resolving [ 'https://registry.npmjs.org/', './buffertools' ]
+447 verbose url resolved https://registry.npmjs.org/buffertools
+448 info trying registry request attempt 1 at 18:35:13
+449 http GET https://registry.npmjs.org/buffertools
+450 http 200 https://registry.npmjs.org/buffertools
+451 silly registry.get cb [ 200,
+451 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+451 silly registry.get     etag: '"83UA3TH94RMTYWHXFKMS4AP8U"',
+451 silly registry.get     'content-type': 'application/json',
+451 silly registry.get     'content-encoding': 'gzip',
+451 silly registry.get     'cache-control': 'max-age=300',
+451 silly registry.get     'content-length': '5343',
+451 silly registry.get     'accept-ranges': 'bytes',
+451 silly registry.get     date: 'Mon, 25 Apr 2016 13:01:42 GMT',
+451 silly registry.get     via: '1.1 varnish',
+451 silly registry.get     age: '268',
+451 silly registry.get     connection: 'keep-alive',
+451 silly registry.get     'x-served-by': 'cache-sin6923-SIN',
+451 silly registry.get     'x-cache': 'HIT',
+451 silly registry.get     'x-cache-hits': '1',
+451 silly registry.get     'x-timer': 'S1461589302.836222,VS0,VE0',
+451 silly registry.get     vary: 'Accept-Encoding' } ]
+452 silly addNameRange number 2 { name: 'buffertools', range: '>=1.0.3', hasData: true }
+453 silly addNameRange versions [ 'buffertools',
+453 silly addNameRange   [ '1.0.0',
+453 silly addNameRange     '1.0.1',
+453 silly addNameRange     '1.0.2',
+453 silly addNameRange     '1.0.3',
+453 silly addNameRange     '1.0.4',
+453 silly addNameRange     '1.0.5',
+453 silly addNameRange     '1.0.6',
+453 silly addNameRange     '1.0.7',
+453 silly addNameRange     '1.0.8',
+453 silly addNameRange     '1.0.9',
+453 silly addNameRange     '1.1.0',
+453 silly addNameRange     '1.1.1',
+453 silly addNameRange     '2.0.0',
+453 silly addNameRange     '2.0.1',
+453 silly addNameRange     '2.1.0',
+453 silly addNameRange     '2.1.1',
+453 silly addNameRange     '2.1.2',
+453 silly addNameRange     '2.1.3' ] ]
+454 verbose addNamed [ 'buffertools', '2.1.3' ]
+455 verbose addNamed [ '2.1.3', '2.1.3' ]
+456 silly lockFile 785f2da1-buffertools-2-1-3 buffertools@2.1.3
+457 verbose lock buffertools@2.1.3 C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\785f2da1-buffertools-2-1-3.lock
+458 silly lockFile 43e927ec-uffertools-buffertools-2-1-3-tgz https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz
+459 verbose lock https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\43e927ec-uffertools-buffertools-2-1-3-tgz.lock
+460 verbose addRemoteTarball [ 'https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz',
+460 verbose addRemoteTarball   '34d3bf0565ed79e29877c2a6217ccfce9a3b3423' ]
+461 info retry fetch attempt 1 at 18:35:14
+462 verbose fetch to= C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz
+463 http GET https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz
+464 http 200 https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz
+465 verbose tar unpack C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz
+466 silly lockFile e6de67f8--cache-buffertools-2-1-3-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package
+467 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\e6de67f8--cache-buffertools-2-1-3-package.lock
+468 silly lockFile 792b587f-4178-0-20548115717247128-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz
+469 verbose lock tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\792b587f-4178-0-20548115717247128-tmp-tgz.lock
+470 silly gunzTarPerm modes [ '755', '644' ]
+471 silly gunzTarPerm extractEntry package.json
+472 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+473 silly gunzTarPerm extractEntry .npmignore
+474 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+475 silly gunzTarPerm extractEntry README.md
+476 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+477 silly gunzTarPerm extractEntry LICENSE
+478 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+479 silly gunzTarPerm extractEntry buffertools.js
+480 silly gunzTarPerm modified mode [ 'buffertools.js', 436, 420 ]
+481 silly gunzTarPerm extractEntry test.js
+482 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+483 silly gunzTarPerm extractEntry binding.gyp
+484 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 420 ]
+485 silly gunzTarPerm extractEntry buffertools.cc
+486 silly gunzTarPerm modified mode [ 'buffertools.cc', 436, 420 ]
+487 silly gunzTarPerm extractEntry BoyerMoore.h
+488 silly gunzTarPerm modified mode [ 'BoyerMoore.h', 436, 420 ]
+489 silly gunzTarPerm extractEntry AUTHORS
+490 silly gunzTarPerm modified mode [ 'AUTHORS', 436, 420 ]
+491 silly gunzTarPerm extractEntry .mailmap
+492 silly gunzTarPerm modified mode [ '.mailmap', 436, 420 ]
+493 silly lockFile e6de67f8--cache-buffertools-2-1-3-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package
+494 silly lockFile e6de67f8--cache-buffertools-2-1-3-package tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package
+495 silly lockFile 792b587f-4178-0-20548115717247128-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz
+496 silly lockFile 792b587f-4178-0-20548115717247128-tmp-tgz tar://C:\Users\DINESH~1.MAD\AppData\Local\Temp\npm-5760-pDK1b6vD\1461589514178-0.20548115717247128\tmp.tgz
+497 silly lockFile 43e927ec-uffertools-buffertools-2-1-3-tgz https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz
+498 silly lockFile 43e927ec-uffertools-buffertools-2-1-3-tgz https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz
+499 silly lockFile 785f2da1-buffertools-2-1-3 buffertools@2.1.3
+500 silly lockFile 785f2da1-buffertools-2-1-3 buffertools@2.1.3
+501 silly lockFile 7f466163-buffertools-1-0-3 buffertools@>= 1.0.3
+502 silly lockFile 7f466163-buffertools-1-0-3 buffertools@>= 1.0.3
+503 silly resolved [ { name: 'buffertools',
+503 silly resolved     main: 'buffertools',
+503 silly resolved     version: '2.1.3',
+503 silly resolved     keywords: [ 'buffer', 'buffers' ],
+503 silly resolved     description: 'Working with node.js buffers made easy.',
+503 silly resolved     homepage: 'https://github.com/bnoordhuis/node-buffertools',
+503 silly resolved     author:
+503 silly resolved      { name: 'Ben Noordhuis',
+503 silly resolved        email: 'info@bnoordhuis.nl',
+503 silly resolved        url: 'http://bnoordhuis.nl/' },
+503 silly resolved     repository:
+503 silly resolved      { type: 'git',
+503 silly resolved        url: 'https://github.com/bnoordhuis/node-buffertools.git' },
+503 silly resolved     engines: { node: '>=0.3.0' },
+503 silly resolved     scripts: { test: 'node test.js', install: 'node-gyp rebuild' },
+503 silly resolved     license: 'ISC',
+503 silly resolved     readmeFilename: 'README.md',
+503 silly resolved     gypfile: true,
+503 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+503 silly resolved     readme: '# node-buffertools\n\nUtilities for manipulating buffers.\n\n## Installing the module\n\nEasy! With [npm](http://npmjs.org/):\n\n\tnpm install buffertools\n\nFrom source:\n\n\tnode-gyp configure\n\tnode-gyp build\n\nNow you can include the module in your project.\n\n\trequire(\'buffertools\').extend();  // extend Buffer.prototype\n\tvar buf = new Buffer(42);         // create a 42 byte buffer\n\tbuf.clear();                      // clear it!\n\nIf you don\'t want to extend the Buffer class\'s prototype (recommended):\n\n\tvar buffertools = require(\'buffertools\');\n\tvar buf = new Buffer(42);\n\tbuffertools.clear(buf);\n\n## Methods\n\nNote that most methods that take a buffer as an argument, will also accept a string.\n\n### buffertools.extend([object], [object...])\n\nExtend the arguments with the buffertools methods.  If called without arguments,\ndefaults to `[Buffer.prototype, SlowBuffer.prototype]`.  Extending prototypes\nonly makes sense for classes that derive from `Buffer`.\n\nbuffertools v1.x extended the `Buffer` prototype by default.  In v2.x, it is\nopt-in.  The reason for that is that buffertools was originally developed for\nnode.js v0.3 (or maybe v0.2, I don\'t remember exactly when buffers were added)\nwhere the `Buffer` class was devoid of any useful methods.  Over the years, it\nhas grown a number of utility methods, some of which conflict with the\nbuffertools methods of the same name, like `Buffer#fill()`.\n\n### Buffer#clear()\n### buffertools.clear(buffer)\n\nClear the buffer. This is equivalent to `Buffer#fill(0)`.\nReturns the buffer object so you can chain method calls.\n\n### Buffer#compare(buffer|string)\n### buffertools.compare(buffer, buffer|string)\n\nLexicographically compare two buffers. Returns a number less than zero\nif a < b, zero if a == b or greater than zero if a > b.\n\nBuffers are considered equal when they are of the same length and contain\nthe same binary data.\n\nSmaller buffers are considered to be less than larger ones. Some buffers\nfind this hurtful.\n\n### Buffer#concat(a, b, c, ...)\n### buffertools.concat(a, b, c, ...)\n\nConcatenate two or more buffers/strings and return the result. Example:\n\n\t// identical to new Buffer(\'foobarbaz\')\n\ta = new Buffer(\'foo\');\n\tb = new Buffer(\'bar\');\n\tc = a.concat(b, \'baz\');\n\tconsole.log(a, b, c); // "foo bar foobarbaz"\n\n\t// static variant\n\tbuffertools.concat(\'foo\', new Buffer(\'bar\'), \'baz\');\n\n### Buffer#equals(buffer|string)\n### buffertools.equals(buffer, buffer|string)\n\nReturns true if this buffer equals the argument, false otherwise.\n\nBuffers are considered equal when they are of the same length and contain\nthe same binary data.\n\nCaveat emptor: If your buffers contain strings with different character encodings,\nthey will most likely *not* be equal.\n\n### Buffer#fill(integer|string|buffer)\n### buffertools.fill(buffer, integer|string|buffer)\n\nFill the buffer (repeatedly if necessary) with the argument.\nReturns the buffer object so you can chain method calls.\n\n### Buffer#fromHex()\n### buffertools.fromHex(buffer)\n\nAssumes this buffer contains hexadecimal data (packed, no whitespace)\nand decodes it into binary data. Returns a new buffer with the decoded\ncontent. Throws an exception if non-hexadecimal data is encountered.\n\n### Buffer#indexOf(buffer|string, [start=0])\n### buffertools.indexOf(buffer, buffer|string, [start=0])\n\nSearch this buffer for the first occurrence of the argument, starting at\noffset `start`. Returns the zero-based index or -1 if there is no match.\n\n### Buffer#reverse()\n### buffertools.reverse(buffer)\n\nReverse the content of the buffer in place. Example:\n\n\tb = new Buffer(\'live\');\n\tb.reverse();\n\tconsole.log(b); // "evil"\n\n### Buffer#toHex()\n### buffertools.toHex(buffer)\n\nReturns the contents of this buffer encoded as a hexadecimal string.\n\n## Classes\n\nSingular, actually. To wit:\n\n## WritableBufferStream\n\nThis is a regular node.js [writable stream](http://nodejs.org/docs/v0.3.4/api/streams.html#writable_Stream)\nthat accumulates the data it receives into a buffer.\n\nExample usage:\n\n\t// slurp stdin into a buffer\n\tprocess.stdin.resume();\n\tostream = new WritableBufferStream();\n\tutil.pump(process.stdin, ostream);\n\tconsole.log(ostream.getBuffer());\n\nThe stream never emits \'error\' or \'drain\' events.\n\n### WritableBufferStream.getBuffer()\n\nReturn the data accumulated so far as a buffer.\n\n## TODO\n\n* Logical operations on buffers (AND, OR, XOR).\n* Add lastIndexOf() functions.\n\n## License\n\nCopyright (c) 2010, Ben Noordhuis <info@bnoordhuis.nl>\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n',
+503 silly resolved     bugs: { url: 'https://github.com/bnoordhuis/node-buffertools/issues' },
+503 silly resolved     _id: 'buffertools@2.1.3',
+503 silly resolved     _shasum: '34d3bf0565ed79e29877c2a6217ccfce9a3b3423',
+503 silly resolved     _from: 'buffertools@>= 1.0.3',
+503 silly resolved     _resolved: 'https://registry.npmjs.org/buffertools/-/buffertools-2.1.3.tgz' } ]
+504 info install buffertools@2.1.3 into D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream
+505 info installOne buffertools@2.1.3
+506 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools unbuild
+507 verbose tar unpack C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package.tgz
+508 silly lockFile 46453d94-rstream-node-modules-buffertools tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools
+509 verbose lock tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\46453d94-rstream-node-modules-buffertools.lock
+510 silly lockFile 33832d31-he-buffertools-2-1-3-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package.tgz
+511 verbose lock tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package.tgz C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\33832d31-he-buffertools-2-1-3-package-tgz.lock
+512 silly gunzTarPerm modes [ '755', '644' ]
+513 silly gunzTarPerm extractEntry package.json
+514 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+515 silly gunzTarPerm extractEntry .npmignore
+516 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+517 silly gunzTarPerm extractEntry README.md
+518 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+519 silly gunzTarPerm extractEntry LICENSE
+520 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+521 silly gunzTarPerm extractEntry buffertools.js
+522 silly gunzTarPerm modified mode [ 'buffertools.js', 436, 420 ]
+523 silly gunzTarPerm extractEntry test.js
+524 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+525 silly gunzTarPerm extractEntry binding.gyp
+526 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 420 ]
+527 silly gunzTarPerm extractEntry buffertools.cc
+528 silly gunzTarPerm modified mode [ 'buffertools.cc', 436, 420 ]
+529 silly gunzTarPerm extractEntry BoyerMoore.h
+530 silly gunzTarPerm modified mode [ 'BoyerMoore.h', 436, 420 ]
+531 silly gunzTarPerm extractEntry AUTHORS
+532 silly gunzTarPerm modified mode [ 'AUTHORS', 436, 420 ]
+533 silly gunzTarPerm extractEntry .mailmap
+534 silly gunzTarPerm modified mode [ '.mailmap', 436, 420 ]
+535 silly lockFile 46453d94-rstream-node-modules-buffertools tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools
+536 silly lockFile 46453d94-rstream-node-modules-buffertools tar://D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools
+537 silly lockFile 33832d31-he-buffertools-2-1-3-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package.tgz
+538 silly lockFile 33832d31-he-buffertools-2-1-3-package-tgz tar://C:\Users\dinesh.maduraimani\AppData\Roaming\npm-cache\buffertools\2.1.3\package.tgz
+539 info preinstall buffertools@2.1.3
+540 verbose readDependencies using package.json deps
+541 verbose readDependencies using package.json deps
+542 silly resolved []
+543 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools
+544 info build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools
+545 verbose linkStuff [ false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   false,
+545 verbose linkStuff   'D:\\Dinesh\\BEC\\SVN_Checkout_TRS_PP\\node_modules\\scissors\\node_modules\\bufferstream\\node_modules' ]
+546 info linkStuff buffertools@2.1.3
+547 verbose linkBins buffertools@2.1.3
+548 verbose linkMans buffertools@2.1.3
+549 verbose rebuildBundles buffertools@2.1.3
+550 info install buffertools@2.1.3
+551 verbose unsafe-perm in lifecycle true
+552 info buffertools@2.1.3 Failed to exec install script
+553 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules\buffertools unbuild
+554 info preuninstall buffertools@2.1.3
+555 info uninstall buffertools@2.1.3
+556 verbose false,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream\node_modules unbuild buffertools@2.1.3
+557 info postuninstall buffertools@2.1.3
+558 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream
+559 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules\bufferstream unbuild
+560 info preuninstall bufferstream@0.5.2
+561 info uninstall bufferstream@0.5.2
+562 verbose false,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors\node_modules unbuild bufferstream@0.5.2
+563 info postuninstall bufferstream@0.5.2
+564 verbose about to build D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors
+565 info D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules\scissors unbuild
+566 info preuninstall scissors@0.1.0
+567 info uninstall scissors@0.1.0
+568 verbose true,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules,D:\Dinesh\BEC\SVN_Checkout_TRS_PP\node_modules unbuild scissors@0.1.0
+569 info postuninstall scissors@0.1.0
+570 error buffertools@2.1.3 install: `node-gyp rebuild`
+570 error Exit status 1
+571 error Failed at the buffertools@2.1.3 install script.
+571 error This is most likely a problem with the buffertools package,
+571 error not with npm itself.
+571 error Tell the author that this fails on your system:
+571 error     node-gyp rebuild
+571 error You can get their info via:
+571 error     npm owner ls buffertools
+571 error There is likely additional logging output above.
+572 error System Windows_NT 6.1.7601
+573 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "scissors"
+574 error cwd D:\Dinesh\BEC\SVN_Checkout_TRS_PP
+575 error node -v v0.10.27
+576 error npm -v 1.4.8
+577 error code ELIFECYCLE
+578 verbose exit [ 1, true ]

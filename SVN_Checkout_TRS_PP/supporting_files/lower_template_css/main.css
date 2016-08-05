@@ -1,0 +1,33 @@
+@media screen and (min-width: 769px) {
+  .dynamicTable .catergories th.empty {
+    background-color: transparent; }
+
+  .hidden-lg {
+    display: none; } }
+@media screen and (max-width: 768px) {
+  .dynamicTable.hidden-lg {
+    width: 98%;
+    margin: 20px 1%; }
+    .dynamicTable.hidden-lg .catergories {
+      display: block;
+      margin: 0; }
+      .dynamicTable.hidden-lg .catergories th {
+        display: block;
+        margin-top: 20px; }
+        .dynamicTable.hidden-lg .catergories th.empty {
+          background-color: transparent;
+          display: none; }
+    .dynamicTable.hidden-lg .content {
+      display: block; }
+      .dynamicTable.hidden-lg .content td {
+        display: block; }
+        .dynamicTable.hidden-lg .content td.tableDivider {
+          display: block; }
+        .dynamicTable.hidden-lg .content td.subTableDivider {
+          display: block; }
+
+  .hidden-sm {
+    display: none; } }
+	
+
+/*# sourceMappingURL=main.css.map */

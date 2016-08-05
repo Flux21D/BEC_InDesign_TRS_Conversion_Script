@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 
+* {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+	}
+ */
+ 
+  .table-container {
+      margin: 0 auto;
+      }
+      ul.tabs {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      }
+      ul.tabs li {
+      background: #c0d3ed;
+      color: #0f60a9;
+      display: inline-block;
+      padding: 10px 15px;
+      cursor: pointer;
+      }
+      ul.tabs li.current {
+      background: #0f60a9;
+      color:#FFFFFF;
+      }
+      .tab-content {
+      display: none;
+      background: #0f60a9;
+      padding: 10px 0px;
+      }
+      .tab-content.current {
+      display: inherit;
+      }
+ 
+.componentsTable table, th, td {
+border: 1px solid white;
+} 
+img {
+	max-width:100%;
+	height:auto;
+	}
+
+/* Backgound Colors */
+
+.darkBlue {
+	background-color:#007cc3;
+	}
+	
+.lightBlue {
+	background-color:#66b0db;
+	}
+	
+.paleBlue {
+	background-color:#c7d3e6;
+	font-size:.8em;
+	}
+	
+.week1 {
+	background-color:#e7372f;
+	color:#ffffff;
+	}
+	
+.week2 {
+	background-color:#843b9e;
+	color:#ffffff;
+	}
+	
+.week3 {
+	background-color:#0ea050;
+	color:#ffffff;
+	}
+	
+	
+.week1pale {
+	background-color:#fad7d5;
+	}
+	
+.week2pale {
+	background-color:#e6d8ec;
+	}
+	
+.week3pale {
+	background-color:#cfecdc;
+	}
+	
+	
+.rowHeader {
+	color:#ffffff;
+	}
+	
+.blueHeader {
+	color:#007cc3;
+	font-weight:bold;
+	display:block;
+	position: top;
+	}
+	
+.alignLeft {
+	text-align:left;
+	}
+	
+.classSubheader {
+	font-size:.8em;
+
+	}
+	
+.componentsTable {
+	width: 100%;
+	text-align:center;
+	}
+	
+.componentsTable td{
+	padding: 16px;
+	}
+
+.width25 {
+	width:25%;
+	}
+	
+.width20 {
+	width:20%;
+	}
+	
+.width5 {
+	width:5%;
+	}
+	
+.assessmentImg {
+	margin-right:16px;
+	}
+	
+.marginBottom10 {
+	margin-bottom:10px;
+	}

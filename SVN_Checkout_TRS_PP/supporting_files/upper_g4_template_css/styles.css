@@ -1,0 +1,208 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-82lyy5');
+	src:url('fonts/icomoon.eot?#iefix-82lyy5') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?-82lyy5') format('truetype'),
+		url('fonts/icomoon.woff?-82lyy5') format('woff'),
+		url('fonts/icomoon.svg?-82lyy5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle-up:before {
+	content: "\e603";
+}
+.icon-circle-right:before {
+	content: "\e601";
+}
+.icon-circle-down:before {
+	content: "\e602";
+}
+.icon-circle-left:before {
+	content: "\e600";
+}
+
+
+.icon-circle-right:before{
+	content: "\e601";
+	font-size:16px;
+	font-weight:600;
+	line-height:20px;
+}
+.icon-circle-left:before{
+	content: "\e600";
+	font-size:14px;
+	font-weight:600;
+	line-height:20px;
+}
+
+.icon-circle-down:before{
+	content: "\e602";
+	font-size:14px;
+	font-weight:600;
+	line-height:20px;
+}
+.icon-circle-up:before{
+	content: "\e603";
+	font-size:14px;
+	font-weight:600;
+	line-height:20px;
+}
+/* icon */
+.Blue{ color:#0c7dc3 !important;}
+.Gray{ color:#636363 !important;}
+.grades { margin-top:2px;}
+.nopadding { padding:0 !important; margin:0 !important;}
+.push-aside { padding-left:240px;}
+.floatr { float:right;}
+.floatl {float:left;}
+.mylogo{ display:block; margin:30px 0 20px 0;}
+.left-nav{
+	background-color: #eaeaea;
+	border-right: 1px solid #c5c5c5;
+	padding: 2px 20px 0 20px;
+	height: 100%;
+	width: 240px;
+	position: absolute;
+	z-index: 99999;
+	
+}
+.left-nav-more{
+	background-color: #eaeaea;
+	border-right: 1px solid #c5c5c5;
+	padding: 2px 20px 0 20px;
+	height: 2000px;
+	width: 240px;
+	position: absolute;
+	z-index: 99999;
+}
+.left-nav-plus{
+	background-color: #eaeaea;
+	border-right: 1px solid #c5c5c5;
+	padding: 2px 20px 0 20px;
+	height: 1400px;
+	width: 240px;
+	position: absolute;
+	z-index: 99999;
+}
+
+ /* pdf page*/
+ 
+.site-wrap {
+  /* Critical position and size styles */
+  height: 95%;
+  width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  width:100%;
+  z-index: 0; 
+  /* non-critical apperance styles */
+}
+
+/*radius*/
+.radius {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.top-radius {
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.bottom-radius {
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.border-divider { border-right: solid #B8B8B8 1px;}
+@media screen and (max-width: 939px) {
+.nav-disc{margin:10px 0px 10px 15px !important;border-right:solid 1px !important;font-size:13px}
+  }
+@media screen and (max-width: 768px) {
+ .site-wrap {
+  height: 85%;
+}
+  }
+
+/*pdf*/
+
+.embed-container {
+   height: 0;
+   width: 100%;
+   height: 1150px;
+   overflow: hidden;
+   position: relative;
+}
+.embed-container iframe {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+
+/*Skills-Strategies*/
+.skills-h{
+height:400px;
+vertical-align:text-top;
+	}
+
+.pdf-nav{ width:100%; position:absolute; z-index:99;}
+
+.pdf-nav{ width:100%; position:absolute; z-index:99;}
+
+
+ .clr2-nav ul li a{
+	 background: #eaeaea !important; color:#000000 !important;}
+ .clr2-nav ul li a:hover{
+	 color: #5A5A5A !important; border-right: solid 1px  #4D4D4D !important;}
+
+  
+ .top-bar-section .dropdown li.title h5 a, .top-bar-section .dropdown li.parent-link + a{  
+ text-decoration:none; font-size:15px; font-weight:600; color:#000000 !important;}
+ 
+ 
+@media screen and (max-width: 640px) {
+    .desktop-nav {
+		display:none;
+    }
+	.push-aside { padding:0;}
+	.disktop-padding-left { padding-left:10px;}
+	
+}
+@media screen and (min-width: 640px) {
+    .mobile-nav {
+		display:none;
+    }
+	.disktop-padding-left { padding-left:20px;}
+	
+}
+
+
+
+
+
+
+
+
+
+  
+ 

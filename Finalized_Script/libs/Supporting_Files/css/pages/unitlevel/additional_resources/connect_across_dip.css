@@ -1,0 +1,64 @@
+main{
+	margin-top: 50px;
+}
+
+.pink_headers h3, .pink_headers div h1{color: #EC008C;}
+.teal_headers h3, .teal_headers div h1{color: #00A1A6;}
+
+.hss_icon, .ngss_icon{
+	width: 13%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: 30px;
+}
+ 
+.hss_icon span{
+	background-color: #EC008C; 
+	border-radius: 50px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;  
+}
+
+.ngss_icon span{
+	background-color: #00A1A6; 
+	border-radius: 50px;
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	padding: 12px 7px 12px 7px;   
+}
+
+.challenge_icon{ 
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: 30px;  
+}
+ 
+.challenge_icon span{
+	font-weight: bold;
+	background-color: #FFE011;
+	color: #F15922;
+	border: 2px solid #F15922;
+	border-radius: 50%;
+	padding: 10px 5px 10px 5px; 
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; 
+}
+ 
+.col_title{ 
+	display: inline-block;
+	font-size: .75em; 
+	font-weight: bold; 
+}  
+ 
+.indent-20{
+	text-indent: 20px;
+	position: relative;
+	top: 7px;
+}

@@ -1,0 +1,126 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+img.big {
+    height: 250px;
+}
+
+.map-bg{
+	background-image:url(/images/grade/themes-of-literacy/img-t4.jpg);
+	background-repeat:no-repeat;
+	height:200px;
+	}
+.style-p{
+	padding:10px; 
+	font-weight:600;
+	position:relative; bottom: 13em;left:3em;
+	} 
+.style-p::first-letter { 
+  font-size: 200%;
+	font-weight:800;
+	position:relative; 
+	bottom: 13em;
+	left:3em;
+}
+
+	
+ 	
+article {
+	display:block;
+}
+
+.content-knowledge,.meaning-making, .foundational-skills, .languange-development, .effective-expression {
+	margin-bottom:20px;
+	overflow:auto;
+	min-height:400px;
+	border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;}
+	
+.content-knowledge span,.meaning-making span, .foundational-skills span, .languange-development span, .effective-expression span {
+	font-weight:600;}
+	
+.ahead {
+	padding:10px;
+	color:#FFF;
+	font-weight:600;
+	margin-bottom:20px;
+	font-family:'Open Sans Condensed' Geneva, sans-serif;
+	font-size:1.4em;
+	}
+   .ahead span { 
+	}
+	
+	
+.content-knowledge{
+    background-color:#fef3e3;
+	}
+    .content-knowledge .ahead {
+    background-color:#f8981d;
+	}
+    .content-knowledge span {
+	color:#f8981d;
+	}
+.meaning-making {
+	background-color:#f0f1f8;
+	}
+    .meaning-making .ahead {
+	background-color:#1c449c;
+	}
+	.meaning-making span {
+	color:#1c449c;
+	}
+.foundational-skills{
+	background-color:#fef4f0;
+	}	
+    .foundational-skills .ahead {
+	background-color:#ed2635;
+	}
+    .foundational-skills span {
+	color:#ed2635;
+	}
+.languange-development{
+	background-color:#f8fbf4;
+	}
+    .languange-development .ahead {
+	background-color:#85c440;
+	}
+	.languange-development span {
+	color:#85c440;
+	}
+.effective-expression {
+	background-color:#FAEBFF;
+	}
+  	.effective-expression .ahead {
+	background-color:#9d3493;
+	}
+	.effective-expression span {
+	color:#9d3493;
+	}
+
+.style-img{float:right;}
+.literacy-img{
+	margin-top:80px;
+	}
+
+@media (max-width:768px){
+.style-img{padding: 0 25% 0 25%;}
+
+}
+
+@media (max-width:628px){
+.literacy-img{
+	margin-top:0px;
+	}
+}
+
+
+
+
+		
+		
+		
+		
+	

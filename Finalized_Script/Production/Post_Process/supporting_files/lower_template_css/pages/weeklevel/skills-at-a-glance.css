@@ -1,0 +1,118 @@
+
+  .miniLessonWeek1Skills .bookSection h2 {
+    color: #027dc3; }
+    .miniLessonWeek1Skills .bookSection h2 span {
+      font-weight: 100; }
+  .miniLessonWeek1Skills .bookImage img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    background: #000;
+    text-align: center; }
+  .miniLessonWeek1Skills .bookImage p {
+    font-weight: bold; }
+  .miniLessonWeek1Skills .bookInfo {
+    border: #000 solid 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    margin-bottom: 20px; }
+    .miniLessonWeek1Skills .bookInfo header {
+      display: block;
+      background-color: #ef4138;
+      color: white;
+      border-bottom: #000 solid 2px;
+      margin: 0;
+      padding: 5px;
+      font-weight: bold; }
+      .miniLessonWeek1Skills .bookInfo header span {
+        float: right;
+        font-size: .8em; }
+    .miniLessonWeek1Skills .bookInfo .subHeader {
+      display: block;
+      background-color: orange;
+      color: white;
+      margin: 0;
+      border-bottom: #000 solid 2px;
+      padding: 5px;
+      font-weight: bold; }
+    .miniLessonWeek1Skills .bookInfo .content {
+      margin: 5px; }
+      .miniLessonWeek1Skills .bookInfo .content .listHeader {
+        color: orange;
+        font-weight: bold; }
+        .miniLessonWeek1Skills .bookInfo .content .listHeader span {
+          border-radius: 50%;
+          padding: .2em .6em;
+          color: #fff;
+          background-color: orange; }
+      .miniLessonWeek1Skills .bookInfo .content .listItem {
+        display: list-item;
+        list-style-type: disc;
+        margin-left: 20px; }
+  .miniLessonWeek1Skills table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none; }
+    .miniLessonWeek1Skills table td {
+      background: #fff; }
+    .miniLessonWeek1Skills table p {
+      
+      margin: 0;
+      padding: 0; }
+    .miniLessonWeek1Skills table table, .miniLessonWeek1Skills table th, .miniLessonWeek1Skills table td {
+      border: 1px solid #999;
+      padding: 10px; }
+    .miniLessonWeek1Skills table th {
+      color: #fff;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #999; }
+    .miniLessonWeek1Skills table .red {
+      background: #ef4138; }
+    .miniLessonWeek1Skills table .skyblue {
+      background: #01acd7; }
+    .miniLessonWeek1Skills table .purple {
+      background: #9d3493; }
+    .miniLessonWeek1Skills table .blue {
+      background: #027dc3; }
+    .miniLessonWeek1Skills table .green {
+      background: #85c441; }
+    .miniLessonWeek1Skills table .blueText {
+      text-align: left;
+      color: #027dc3; }
+    .miniLessonWeek1Skills table table, .miniLessonWeek1Skills table th {
+      border: none; }
+    .miniLessonWeek1Skills table th:nth-child(2) {
+      border: 1px solid #ef4138; }
+    .miniLessonWeek1Skills table th:nth-child(3) {
+      border: 1px solid #01acd7; }
+    .miniLessonWeek1Skills table th:nth-child(4) {
+      border: 1px solid #9d3493; }
+    .miniLessonWeek1Skills table th:nth-child(5) {
+      border: 1px solid #027dc3; }
+    .miniLessonWeek1Skills table th:nth-child(6) {
+      border: 1px solid #85c441; }
+    .miniLessonWeek1Skills table .redText {
+      color: #ef4138; }
+    .miniLessonWeek1Skills table .blueText {
+      color: #00adef; }
+    .miniLessonWeek1Skills table .purpleText {
+      color: #9d3493; }
+    .miniLessonWeek1Skills table .darkBlueText {
+      color: #007cc2; }
+    .miniLessonWeek1Skills table .greenText {
+      color: #85c441; }
+    .miniLessonWeek1Skills table th, .miniLessonWeek1Skills table td {
+      vertical-align: top; }
+    .miniLessonWeek1Skills table td ul {
+      padding-left: 20px; }
+    .miniLessonWeek1Skills table th ul ul, .miniLessonWeek1Skills table td ul ul {
+      padding-left: 0; }
+    .miniLessonWeek1Skills table td ul > li > ul {
+      list-style: none; }
+    .miniLessonWeek1Skills table .bl {
+      margin-top: 7px;
+      color: #1c449c; }
+
+/*# sourceMappingURL=week1.css.map */
